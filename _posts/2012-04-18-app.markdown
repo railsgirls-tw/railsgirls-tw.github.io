@@ -7,6 +7,7 @@ permalink: app
 # Rails Girls App 教學
 
 *Created by Vesa Vänskä, [@vesan](https://twitter.com/vesan)*
+
 *Translated by JuanitoFatas, [@JuanitoFatas](https://twitter.com/juanitofatas)*
 
 **確定妳已安裝好 Rails**，尚未安裝請參考[**安裝指南**](/install)。
