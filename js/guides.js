@@ -33,7 +33,7 @@ function addIcons() {
 }
 
 function initializeOsSwitchers() {
-  $(".os-specific").append("<span class='picker'>選擇你的作業系統 <a href='#' class='win-link'>Windows</a> | <a href='#' class='nix-link'>其它</a></span>").find(".win-link").click(function(event) {
+  $(".os-specific").append("<span class='picker'>選擇妳的作業系統 <a href='#' class='win-link'>Windows</a> | <a href='#' class='nix-link'>其它</a></span>").find(".win-link").click(function(event) {
     event.preventDefault();
     saveOs("win");
 
