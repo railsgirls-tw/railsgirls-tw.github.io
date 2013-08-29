@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rails Girls on video
+title: Rails Girls 影片
 permalink: videos
 ---
 

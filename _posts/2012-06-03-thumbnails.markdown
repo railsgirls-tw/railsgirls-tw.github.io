@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Show thumbnails when listing ideas
+title: 列出概念時顯示縮圖
 permalink: thumbnails
 ---
 
@@ -70,7 +70,7 @@ have weren't affected. So edit one of the existing ideas and re-add a picture.
 ## Displaying the thumbnails
 
 To see if the uploaded picture was resized open
-`app/views/ideas/index.html.erb`. Change the line 
+`app/views/ideas/index.html.erb`. Change the line
 
 {% highlight erb %}
 <td><%= idea.picture %></td>

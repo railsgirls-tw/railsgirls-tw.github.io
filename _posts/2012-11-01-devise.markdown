@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adding Authentication with Devise
+title: 用 Devise 加入驗證功能
 permalink: devise
 ---
 

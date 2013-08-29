@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Guides
+title: 指南
 permalink: guide
 ---
 
