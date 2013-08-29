@@ -177,14 +177,14 @@ ruby bin\rails server
 
 到瀏覽器打開 [http://localhost:3000/ideas](http://localhost:3000/ideas)。四處把玩看看，妳僅用幾行命令就產生出來的應用程序。
 
-按 `CTRL-C` 來再次離開伺服器，當妳已經玩了一陣子。
+玩了一陣子之後，按 `CTRL-C` 來再次離開伺服器。
 
 
 ## *3.* 設計
 
 **教練：** 講講 Rails 與 HTML 之間的關係。視圖 (Views)裡面哪個部分是 HTML？哪個部分是嵌入 Ruby (ERB)？MVC 是什麼？與它們有什麼關係？（模型與控制器負責產生 HTML 視圖）
 
-妳的應用現在看起來不太美麗。讓我們來給她打扮打扮。我們會使用 Twitter Bootstrap 專案來非常簡單的幫應用變美麗。
+妳的應用現在看起來不太漂亮。讓我們來給她打扮打扮。我們會使用 Twitter Bootstrap 專案來非常簡單的幫應用變漂亮。
 
 在編輯器裡打開 `app/views/layouts/application.html.erb`，找到這行，在上面
 
@@ -212,7 +212,7 @@ ruby bin\rails server
 </div>
 {% endhighlight %}
 
-Let's also add a navigation bar and footer to the layout. In the same file, under `<body>` add
+讓我們也加入導覽條與 footer 到頁面吧。在同一個檔案裡，`<body>` 標籤下面，加入
 
 {% highlight html %}
 <div class="navbar navbar-fixed-top">
@@ -227,7 +227,7 @@ Let's also add a navigation bar and footer to the layout. In the same file, unde
 </div>
 {% endhighlight %}
 
-and before `</body>` add
+以及在  `</body>` 之前，加入
 
 {% highlight html %}
 <footer>
@@ -237,7 +237,7 @@ and before `</body>` add
 </footer>
 {% endhighlight %}
 
-Now let's also change the styling of the ideas table. Open `app/assets/stylesheets/application.css` and at the bottom add
+現在讓我們也來變一下 ideas 表格的風格。打開 `app/assets/stylesheets/application.css` 到最下面加入
 
 {% highlight css %}
 body { padding-top: 100px; }
@@ -246,105 +246,104 @@ table, td, th { vertical-align: middle !important; border: none !important; }
 th { border-bottom: 1px solid #DDD !important; }
 {% endhighlight %}
 
-Now make sure you saved your files and refresh the browser to see what was changed. You can also change the HTML & CSS further.
+現在確保妳已存檔，並將瀏覽器重新整理，來看看什麼被改變了。妳也可以繼續調整 HTML 與 CSS。
 
-**Coach:** Talk a little about CSS and layouts.
+**Coach:** 稍微講講 CSS 與 layout。
 
+## Step 4: 加入圖片上傳
 
-## Step 4: Adding picture uploads
+我們需要安裝一點軟體，讓我們可以在 Rails 裡上傳檔案。
 
-We need to install a piece of software to let us upload files in Rails.
-
-Open `Gemfile` in the project directory using your text editor and under the line
+在專案目錄下，用編輯器打開 `Gemfile`，找到這行，在這行下面：
 
 {% highlight ruby %}
 gem 'sqlite3'
 {% endhighlight %}
 
-add
+加入
 
 {% highlight ruby %}
 gem 'carrierwave'
 {% endhighlight %}
 
-**Coach:** Explain what libraries are and why they are useful. Describe what open source software is.
+**教練：** 解釋什麼是函式庫，為什麼函式庫很有用。描述一下什麼是開源軟體。
 
-In the terminal run:
+在終端裡，執行：
 
 {% highlight sh %}
 bundle
 {% endhighlight %}
 
-Now we can generate the code for handling uploads. In the terminal run:
+現在我們可以來產生處理上傳的程式碼。在終端裡，執行：
 
 {% highlight sh %}
 rails generate uploader Picture
 {% endhighlight %}
 
-At this point you need to **restart the Rails server process** in the terminal.
+現在妳需要在終端裡 **重新啟動 Rails 伺服器的進程**。
 
-Hit `CTRL-C` in the terminal to quit the server. Once it has stopped, you can press the up arrow to get to the last command entered, then hit enter to start the server again.
+在終端裡按下 `CTRL-C` 來離開伺服器。一旦伺服器停止，妳可以按上，來獲得上個輸入的命令，接著按 enter 來重新啟動伺服器。
 
-This is needed for the app to load the added library.
+為什麼需要重新啟動伺服器呢？因為應用程序需要載入剛剛加入的函式庫。
 
-Open `app/models/idea.rb` and under the line
+打開 `app/models/idea.rb` 並在這行下面
 
 {% highlight ruby %}
 class Idea < ActiveRecord::Base
 {% endhighlight %}
 
-add
+加入
 
 {% highlight ruby %}
 mount_uploader :picture, PictureUploader
 {% endhighlight %}
 
-Open `app/views/ideas/_form.html.erb` and change
+打開 `app/views/ideas/_form.html.erb` 並將這行
 
 {% highlight erb %}
 <%= f.text_field :picture %>
 {% endhighlight %}
 
-to
+改成
 
 {% highlight erb %}
 <%= f.file_field :picture %>
 {% endhighlight %}
 
-In your browser, add new idea with a picture. When you upload a picture it doesn't look nice because it only shows a path to the file, so let's fix that.
+在妳的瀏覽器裡，新增一個想法吧，順便貼張圖片。當你上傳一張圖片，它看起來不像圖片，因為它顯示的是圖片的路徑，所以讓我們讓圖片顯示吧。
 
-Open `app/views/ideas/show.html.erb` and change
+打開 `app/views/ideas/show.html.erb` 並將這行
 
 {% highlight erb %}
 <%= @idea.picture %>
 {% endhighlight %}
 
-to
+改成
 
 {% highlight erb %}
 <%= image_tag(@idea.picture_url, :width => 600) if @idea.picture.present? %>
 {% endhighlight %}
 
-Now refresh your browser to see what changed.
+現在重新整理妳的瀏覽器，看看發生了什麼？
 
-**Coach:** Talk a little about HTML.
+**Coach:** 稍微講講 HTML。
 
 
-## Step 5: Finetune the routes
+## Step 5: 調整路由
 
-If you try to open [http://localhost:3000](http://localhost:3000) it still shows the "Welcome aboard" page. Let's make it redirect to the ideas page.
+如果妳試著開啟 [http://localhost:3000](http://localhost:3000)，它仍顯示 "Welcome aboard" 頁面。讓我們來把這頁導到 ideas 頁面。
 
-Open `config/routes.rb` and after the first line add
+打開 `config/routes.rb` 在第一行後面，加入
 
 {% highlight ruby %}
 root :to => redirect('/ideas')
 {% endhighlight %}
 
-Delete the file `index.html` from the `public/` folder.
+將 `public/` 目錄下的 `index.html` 刪除。
 
-Test the change by opening the root path (that is, http://localhost:3000/) in your browser.
+用瀏覽器打開網站的根目錄 (root path，也就是 http://localhost:3000/)，看看有沒有改變。
 
-**Coach:** Talk about routes, and include details on the order of routes and their relation to static files.
+**教練：** 講解路由，包含路由順序以及路由與靜態檔案的關係。
 
 
 ## 下一步？
