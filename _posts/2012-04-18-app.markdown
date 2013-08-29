@@ -7,7 +7,7 @@ permalink: app
 # Rails Girls App 教學
 
 *Created by Vesa Vänskä, [@vesan](https://twitter.com/vesan)*
-*Translated by JuanitoFatas, [@JuanitoFatas](https://twitter.com/juanitofatas)
+*Translated by JuanitoFatas, [@JuanitoFatas](https://twitter.com/juanitofatas)*
 
 **確定妳已安裝好 Rails**，尚未安裝請參考[**安裝指南**](/install)。
 
@@ -64,7 +64,7 @@ cd projects
 {% endhighlight %}
 
     <div>
-You can verify you are now in an empty directory or folder by again running the <code>ls</code> command. Now you want to create a new app called <code>railsgirls</code> by running:
+妳可以再次使用 <code>ls</code> 命令來檢查妳現在正在一個空目錄裡。現在妳可以用下面這個命令，來建立一個新的應用，叫做 <code>railsgirls</code>：
     </div>
 
 {% highlight sh %}
@@ -72,7 +72,7 @@ rails new railsgirls
 {% endhighlight %}
 
     <div>
-This will create a new app in the folder <code>railsgirls</code>, so we again want to change the directory to be inside of our rails app by running:
+這會在 <code>railsgirls</code> 目錄下建立出一個新的應用，所以我們可以再次使用 <code>cd</code> 命令切換到 Rails 應用目錄：
     </div>
 
 {% highlight sh %}
