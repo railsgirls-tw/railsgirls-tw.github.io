@@ -37,13 +37,13 @@ permalink: app
 
 ## *1.* 建立應用
 
-我們即將建立一個嶄新的 Rails app，叫做 *railsgirls*。
+我們即將建立一個嶄新的 Rails 應用，叫做 *railsgirls*。
 
 首先，打開終端：
 
 * Mac OS X: 打開 Spotlight，輸入 *Terminal* 並點選 *Terminal* 應用程式.
 * Windows: 按開始，找到**命令提示字元**，接著按 *Command Prompt with Ruby on Rails*。
-* Linux (Ubuntu): 在 dash 搜索 *Terminal* 並點選。
+* Linux (Ubuntu): 在 dash 搜索 *Terminal* 並點選 *Terminal*。
 
 接著，輸入下面的命令到終端：
 
@@ -54,7 +54,7 @@ mkdir projects
 {% endhighlight %}
 
     <div>
-可以用 list 命令來檢查叫做 <code>projects</code> 的目錄有沒有產生：<code>ls</code>。應該會在輸出裡看到 <code>projects</code> 目錄。現在你想從當下目錄進入 <code>projects</code> 目錄，可以執行：
+可以用 <code>ls</code> 命令來檢查叫做 <code>projects</code> 的目錄有沒有產生。應該會在輸出裡看到 <code>projects</code> 目錄。現在你想從當下目錄進入 <code>projects</code> 目錄，可以執行：
     </div>
 
 {% highlight sh %}
@@ -92,7 +92,7 @@ mkdir projects
 {% endhighlight %}
 
     <div>
-可以用 list 命令來檢查叫做 <code>projects</code> 的目錄有沒有產生：<code>dir</code>。應該會在輸出裡看到 <code>projects</code> 目錄。現在你想從當下目錄進入 <code>projects</code> 目錄，可以執行：
+可以用 <code>dir</code> 命令來檢查叫做 <code>projects</code> 的目錄有沒有產生。應該會在輸出裡看到 <code>projects</code> 目錄。現在你想從當下目錄進入 <code>projects</code> 目錄，可以執行：
     </div>
 
 {% highlight sh %}
@@ -151,11 +151,11 @@ $
 **教練：** 解釋每個命令用來在做什麼。產生了什麼檔案？伺服器的功用？
 
 
-## *2.*Create Idea scaffold
+## *2.* 建立 Idea 鷹架
 
-We're going to use Rails' scaffold functionality to generate a starting point that allows us to list, add, remove, edit, and view things; in our case ideas.
+我們即將使用 Rails 內建的鷹架功能來產生一個起點。讓我們可以：列出、新增、移除、編輯、檢視想法。
 
-**Coach:** What is Rails scaffolding? (Explain the command, the model name and related database table, naming conventions, attributes and types, etc.) What are migrations and why do you need them?
+**教練：** Rails 鷹架是什麼？（解釋鷹架命令、模型名稱以及相關的資料庫表格、命名慣例、屬性以及型別...等等。）什麼是資料庫遷移 (Migrations)？為什麼需要遷移？
 
 <div class="os-specific">
   <div class="nix">
@@ -175,36 +175,36 @@ ruby bin\rails server
   </div>
 </div>
 
-Open [http://localhost:3000/ideas](http://localhost:3000/ideas) in your browser. Click around and test what you got by running these few command-line commands.
+到瀏覽器打開 [http://localhost:3000/ideas](http://localhost:3000/ideas)。四處把玩看看，妳僅用幾行命令就產生出來的應用程序。
 
-Hit `CTRL-C` to quit the server again when you've clicked around a little.
+按 `CTRL-C` 來再次離開伺服器，當妳已經玩了一陣子。
 
 
-## *3.*Design
+## *3.* 設計
 
-**Coach:** Talk about the relationship between HTML and Rails. What part of views is HTML and what is Embedded Ruby (ERB)? What is MVC and how does this relate to it? (Models and controllers are responsible for generating the HTML views.)
+**教練：** 講講 Rails 與 HTML 之間的關係。視圖 (Views)裡面哪個部分是 HTML？哪個部分是嵌入 Ruby (ERB)？MVC 是什麼？與它們有什麼關係？（模型與控制器負責產生 HTML 視圖）
 
-The app doesn't look very nice yet. Let's do something about that. We'll use the Twitter Bootstrap project to give us nicer styling really easily.
+妳的應用現在看起來不太美麗。讓我們來給她打扮打扮。我們會使用 Twitter Bootstrap 專案來非常簡單的幫應用變美麗。
 
-Open `app/views/layouts/application.html.erb` in your text editor and above the line
+在編輯器裡打開 `app/views/layouts/application.html.erb`，找到這行，在上面
 
 {% highlight erb %}
 <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
 {% endhighlight %}
 
-add
+加入
 
 {% highlight erb %}
 <link rel="stylesheet" href="http://railsgirls.com/assets/bootstrap.css">
 {% endhighlight %}
 
-and replace
+並將這行換成
 
 {% highlight erb %}
 <%= yield %>
 {% endhighlight %}
 
-with
+這個
 
 {% highlight erb %}
 <div class="container">
@@ -349,10 +349,10 @@ Test the change by opening the root path (that is, http://localhost:3000/) in yo
 
 ## 下一步？
 
-* 使用 HTML &amp; CSS 加入設計。
-* 加入評分功能
-* 使用 CoffeeScript （或 JavaScript）加入互動。
-* 加入圖片大小轉換使加載圖片更快完成。
++ 使用 HTML &amp; CSS 加入設計。
++ 加入評分功能
++ 使用 CoffeeScript （或 JavaScript）加入互動。
++ 加入圖片大小轉換使加載圖片更快完成。
 
 ## 其它指南
 
