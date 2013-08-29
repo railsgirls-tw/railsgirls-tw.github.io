@@ -26,7 +26,7 @@ permalink: install
 
 ![Apple 選單](/images/1.png "Apple menu")
 
-**第二步** 在這個視窗妳可以找到作業系統的版本。如果妳的版本是 10.6、10.7 或 10.8，則本指南就是替妳寫的。如果是其它版本，我們可在活動中幫你安裝。
+**第二步** 在這個視窗妳可以找到作業系統的版本。如果妳的版本是 10.6、10.7 或 10.8，則本指南就是為妳而寫的。如果是其它版本，我們可在活動中幫你安裝。
 
 ![關於這台 Mac 對話框](/images/2.png "About this Mac dialog")
 
@@ -53,7 +53,7 @@ gem update rails --no-ri --no-rdoc
 
 ## Setup for Windows
 
-下載 [RailsInstaller](https://github.com/railsinstaller/railsinstaller-windows/releases/download/2.2.2/railsinstaller-2.2.2.exe) 並執行。使用預設選項，並按下一步。
+下載 [RailsInstaller](https://github.com/railsinstaller/railsinstaller-windows/releases/download/2.2.2/railsinstaller-2.2.2.exe) 並執行。使用預設選項，一直按下一步。
 
 如果 Rails 版本不是最新的（目前是 4.0.0），妳可以在 Ruby on Rails 的命令提示字元（"Command Prompt with Ruby on Rails"）輸入下面的命令來更新 Rails。
 
