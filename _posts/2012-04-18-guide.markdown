@@ -20,7 +20,7 @@ Rails Girls 於 2010 年底在赫爾辛基成立。本來只是個一次性的�
 
 Rails Girls 活動是非盈利性的。我們不跟參加者收費，也不會支付報酬給教練或是講師。參加者不需要有任何的程式知識，也沒有年齡限制。只要有台筆電和一點好奇心就可參加！
 
-為期兩天的活動包含了大量的小組協作及一些簡短的演講，重點介紹編程、設計、以及 web。不會有八股的辯論或是演講 ── Rails Girls 的精神是務實與隨和。抽象的概念越少越好，實踐精神越多越好。
+為期兩天的活動包含了大量的小組協作及一些簡短的演講，重點介紹編程、設計、以及 web。不會有八股的辯論或是演講 ─ Rails Girls 的精神是務實與隨和。抽象的概念越少越好，實踐精神越多越好。
 
 #### Rails Girls 哲學
 
@@ -28,14 +28,13 @@ Rails Girls 活動是非盈利性的。我們不跟參加者收費，也不會�
 
 * 網路是人打造出來的，不會因為你的牛刀小試而崩壞。要一直展現人性的一面：鼓勵教練討論開源社群、偶像以及啟發他們的故事。
 
-* 複製貼上是王道！寫程式不是最重要的 ── 一天不可能學的會中文，用同樣的角度看，妳只能學會在程式領域裡，如何表達想法以及一些基本的術語。活動的目標是能有馬上能看到的成效展現給學員。
+* 複製貼上是王道！寫程式不是最重要的 ─ 一天不可能學的會中文，用同樣的角度看，妳只能學會在程式領域裡，如何表達想法以及一些基本的術語。活動的目標是能有馬上能看到的成效展現給學員。
 
 * 世界因女孩而精采！但女人、女士甚至是男孩們都可以參與進來。這裡的“女孩”不僅限於語義上的女孩，是指一種心態。Rails Girls 的兩位創辦人都是聽著辣妹合唱團的歌長大的，女孩不是指可愛的小女生，或是有負面涵意，而是指一種對世界充滿好奇的心態。
 
 ### 範例議程
 
-每場 Rails Girls 活動由一場“安裝節慶”開始，將活動所需的環境安裝在女孩們的電腦上。 這裡有準備好的[教學指南](http://railsgirls-tw.github.io/install)。安裝節慶可以包含簡短的演講，但重點是給女孩提供氣泡酒，將隔天活動所需的一切準備好，讓女孩們互相認識。時間應該是可以靈活調整的 —— 你知道該怎樣分配時間，對參與者最好。我們有在週末與工作日辦過活動的經驗。連續兩個晚上（下午四點至晚上十點），這可能會更符合你的需求。
-
+每場 Rails Girls 活動由一場“安裝節慶”開始，將活動所需的環境安裝在女孩們的電腦上。 這裡有準備好的[教學指南](http://railsgirls-tw.github.io/install)。安裝節慶可以包含簡短的演講，但重點是給女孩提供氣泡酒，將隔天活動所需的一切準備好，讓女孩們互相認識。時間應該是可以靈活調整的 ─ 你知道該怎樣分配時間，對參與者最好。我們有在週末與工作日辦過活動的經驗。連續兩個晚上（下午四點至晚上十點），這可能會更符合你的需求。
 
 #### 工作坊的教學目標
 
@@ -146,7 +145,7 @@ Rails Girls 活動是非盈利性的。我們不跟參加者收費，也不會�
 
 #### Materials
 
-+ [Download materials](http://www.speakerdeck.com/u/railsgirls)
++ [下載資料](http://www.speakerdeck.com/u/railsgirls)
 
 ### Promotion of Rails Girls
 
@@ -165,6 +164,7 @@ While the event is underway, remember to take pictures, collect tweets and ask q
 + [Download materials](http://www.speakerdeck.com/u/railsgirls)
 
 #### Website
+
 E-mail contact(a)railsgirls.com and ask to be included in the repo. Look for readme.txt for further instructions! Before making a site you should have at least two coaches and one sponsor onboard.
 
 
@@ -221,9 +221,7 @@ We’d love to have your support!
 
 Yours, name
 
-
-
-### How much does it cost?
+### 大約要花多少錢？
 
 The costs below are estimated for 30 participants, 10 coaches - but they may vary a lot. It's easiest to try to get a local sponsor to pay the bills directly or partner with someone who has a set account to handle money. These calculations are done in Finland, in €, where food & alcohol is very expensive, but spaces are often free. All in all you should be able to organise an event easily for a little over a thousand euros.
 
@@ -254,11 +252,9 @@ __What do sponsors get?__
 
 Don’t give out the participant info, but sponsors are free to hang out at the event and be sure to include a short message to the sponsor in a thank-you note. Sponsor swag may be included in the goodie bag to an extent, but it should be something tasteful, not trashy and/or related to women.
 
-
-
 ---
 
-## FAQ
+## 常見問題
 
 #### Who can organise a Rails Girls workshop?
 
@@ -272,6 +268,7 @@ Anyone. What we look for is a group of people dedicated in making this a stellar
 Start by filling out [http://railsgirls.com/inyourcity](http://railsgirls.com/inyourcity) and someone from our team will be in contact
 
 #### Where can I find all the materials for posters, nametags, sample presentations and such?
+
 Check out below, and let us know if something is missing!
 + [Download materials](http://www.speakerdeck.com/u/railsgirls)
 
@@ -296,12 +293,11 @@ The coaches don’t need to be hardcore experts on Rails - basic knowledge and w
 
 You can get to know the curriculum by checking out [guides.railsgirls.com/app](http://guides.railsgirls.com/app). There is also always a pre-event coach dinner where we’ll go through some pedagogical suggestions and check everyone knows what is happening. Avoid jargon, tie examples to what your doing, encourage asking questions. The installation instructions can be found at [guides.railsgirls.com/install](http://guides.railsgirls.com/install). We also understand that coaches are human and that for most of the people this is the first time teaching something. Worry not - the women have always been really happy with whatever they learn and just the chance to ask questions is enough.
 
-
 We hope the coaches are ok with having their name and twitter-id/github/some mean of contact on railsgirls.com so the women always have a local face to answer their questions.
 
 In addition, we encourage coaches to come up with additional exercises for the group. After completing the ideation app many women will want to try tweaking the look & feel of the site, implementing commenting, Facebook sharing, pushing the app to Heroku, etc.
 
-#### How to find coaches?
+#### 去哪找教練？
 
 Ask around, ask sponsors (tech companies), ask anyone to help you out. Once you do get some coaches on board, they can help you out with their own contacts. Influential bloggers or Twitter users in your local dev community can help you out by broadcasting a call for coaches. *Hint: You can also thank coaches for their help by providing a spot at the workshop for their girlfriends ;)*
 
@@ -318,8 +314,6 @@ For more information about the non-profit event, check railsgirls.com or guides.
 (You can also include the chapter "What is expected from the coaches" to the mail)"
 
 ---
-
-
 
 #### What materials do I get?
 
@@ -348,7 +342,6 @@ After selecting participants we generally split them into three groups:
 1. people with no previous programming experience
 2. people with some front-end experience (HTML, CSS, Javascript) and
 3. people with a little experience in programming or a background in computer sciences. You can use the different name-tags for each group if you want to (rubies, foxes, octocats, rails..)
-
 
 ##### Sample letter of acceptance
 
