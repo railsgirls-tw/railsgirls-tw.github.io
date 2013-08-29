@@ -4,14 +4,15 @@ title: Rails Girls App 教學
 permalink: app
 ---
 
-# Rails Girls App Tutorial
+# Rails Girls App 教學
 
 *Created by Vesa Vänskä, [@vesan](https://twitter.com/vesan)*
+*Translated by JuanitoFatas, [@JuanitoFatas](https://twitter.com/juanitofatas)
 
-**Make sure you have Rails installed.** [**Follow the installation guide**](/install) to get set up.
+**確定妳已安裝好 Rails**，尚未安裝請參考[**安裝指南**](/install)。
 
 
-## Get to know the tools
+## 認識工具
 
 <div class="indent" markdown="1">
 
@@ -30,21 +31,23 @@ Where you start the rails server and run commands.
 
 </div>
 
-### Important
+### 重要
+
+針對妳的作業系統選對的步驟很重要 —— 在 Windows 執行的命令跟 Mac 與 Linux 上的不太一樣。如果妳遇到任何問題，命令最下方可切換作業系統。
 
 It is important that you select the instructions specific to your operating system - the commands you need to run on a Windows computer are slightly different to Mac or Linux. If you're having trouble check the Operating System switcher at the bottom of the commands.
 
-## *1.*Creating the application
+## *1.* 建立應用
 
-We're going to create a new Rails app called *railsgirls*.
+我們即將建立一個嶄新的 Rails app，叫做 *railsgirls*。
 
-First, let's open a terminal:
+首先，打開終端：
 
-* Mac OS X: Open Spotlight, type *Terminal* and click the *Terminal* application.
-* Windows: Click Start and look for *Command Prompt*, then click *Command Prompt with Ruby on Rails*.
-* Linux (Ubuntu): Search for *Terminal* on the dash and click *Terminal*.
+* Mac OS X: 打開 Spotlight，輸入 *Terminal* 並點選 *Terminal* 應用程式.
+* Windows: 按開始，找到**命令提示字元**，接著按 *Command Prompt with Ruby on Rails*。
+* Linux (Ubuntu): 在 dash 搜索 *Terminal* 並點選。
 
-Next, type these commands in the terminal:
+接著，輸入下面的命令到終端：
 
 <div class="os-specific">
   <div class="nix">
@@ -53,7 +56,7 @@ mkdir projects
 {% endhighlight %}
 
     <div>
-You can verify that a directory named <code>projects</code> was created by running the list command: <code>ls</code>. You should see the <code>projects</code> directory in the output. Now you want to change the directory you are currently in to the <code>projects</code> folder by running:
+可以用 list 命令來檢查叫做 <code>projects</code> 的目錄有沒有產生：<code>ls</code>。應該會在輸出裡看到 <code>projects</code> 目錄。現在你想從當下目錄進入 <code>projects</code> 目錄，可以執行：
     </div>
 
 {% highlight sh %}
@@ -346,15 +349,14 @@ Test the change by opening the root path (that is, http://localhost:3000/) in yo
 **Coach:** Talk about routes, and include details on the order of routes and their relation to static files.
 
 
-## What next?
+## 下一步？
 
-* Add design using HTML &amp; CSS
-* Add ratings
-* Use CoffeeScript (or JavaScript) to add interaction
-* Add picture resizing to make loading the pictures faster
+* 使用 HTML &amp; CSS 加入設計。
+* 加入評分功能
+* 使用 CoffeeScript （或 JavaScript）加入互動。
+* 加入圖片大小轉換使加載圖片更快完成。
 
-
-## Additional Guides
+## 其它指南
 
 * Guide 0: [Handy cheatsheet for Ruby, Rails, console etc.](https://github.com/PragTob/rails-beginner-cheatsheet)
 * Guide 1: [Add commenting by Janika Liiv](/commenting)
@@ -364,4 +366,3 @@ Test the change by opening the root path (that is, http://localhost:3000/) in yo
 * Guide 5: [Add design using HTML &amp; CSS by Alex Liao](/design)
 * Guide 6: [Add Authentication (user accounts) with Devise by Piotr Steininger](/devise/)
 * Guide 7: [Go through additional explanations for the App by Lucy Bain](https://github.com/lbain/railsgirls)
-
