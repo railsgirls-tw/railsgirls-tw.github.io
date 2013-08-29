@@ -4,85 +4,87 @@ title: Guides
 permalink: guide
 ---
 
-# The How to Guide
+# 如何辦活動教學
+
+## 舉辦首場 Rails Girls 活動
+
+我們的宗旨是賦予女性理解技術的工具。Rails Girls 活動對於每個想打造網路世界的人都是一次絕佳的體驗。
+
+Rails Girls 於 2010 年底在赫爾辛基成立。本來只是個一次性的活動，從未想到世界各地會出現有這麼多的分部！本教學把所有資源集結起來，來幫助你舉辦首場活動。
+
+如果你想舉辦一場活動，從填寫 [http://railsgirls.com/inyourcity](http://railsgirls.com/inyourcity) 開始，我們的人將會聯絡妳。
+
+未來將舉辦的活動可以在這裡找到 [www.railsgirls.com](http://railsgirls.com)。
 
 
-## Hosting your first Rails Girls event
+### 基礎
 
-Our aim is to give tools for women to understand technology. The Rails Girls events do this by providing a great first experience on building the Internet.
+Rails Girls 活動是非盈利性的。我們不跟參加者收費，也不會支付報酬給教練或是講師。參加者不需要有任何的程式知識，也沒有年齡限制。只要要有台筆電和一點好奇心就可參加！
 
-Rails Girls was founded in end of 2010 in Helsinki. Originally intended as a onetime event, we never thought we'd see so many local chapters all around the world! This guide has been put together to help you get started.
+為期兩天的活動包含了大量的小組協作，以及一些簡短的演講，重點介紹編程、設計、以及 web。將不會有八股的辯論或是演講 —— 精神是務實與隨性的。抽象的概念越少越好，參與精神越多越好。
 
-If you want to organize an event, start by filling out [http://railsgirls.com/inyourcity](http://railsgirls.com/inyourcity) and someone from our team will be in contact
+#### Rails Girls 哲學
 
-The roadmap for future events can be seen at [www.railsgirls.com](http://railsgirls.com).
+* 讓人格特質散發光彩，將遠景銘記在心。反覆解釋一個觀念時，記得將觀念與大環境來看。
+* 網路是人打造出來的，不會因為你的牛刀小試而崩壞。我們要一直展現人性面：鼓勵教練討論開源社群、偶像以及啟發他們的故事。
+* 複製貼上是王道！不是最重要的 —— 一天是學不會的中文的，用同樣的角度看，妳只能學會在程式領域裡，如何表達想法以及一些基本的術語。活動的目標是能有些馬上能看到的成效展現給學員。
+* 世界因女孩而精采！但女人、女士甚至是男孩們都可以參與進來。這裡的“女孩”不僅限於語義上的女孩，是指一種心態。Rails Girls 的兩位創辦人都是聽著辣妹合唱團的歌長大的，女孩不是指可愛的小女生，或是有負面涵意，而是指一種對世界充滿好奇的心態。
 
+### 範例議程
 
-### The Basics
-Rails Girls events are non-profit. We don’t charge the participants and do not pay for coaches or speakers. Participants don’t need any previous knowledge about programming and there are no age-limitations. All the participants need is a laptop and some curiosity.
-
-The two-day event includes a lot of small group working and short focused talks on programming, design and web. No panel discussions or podium-talks - the spirit should be informal and hands-on. The more you can remove abstractions and add inclusivity the better.
-
-#### Rails Girls philosophy
-
-* Show sparks, personality and keep in mind the big picture. Explain, repeat and always tie what you're telling into a larger context.
-* Internet was made by people and it doesn’t break by a little tinkering. Continuously show the human side: encourage coaches to talk about open source communities, their programming idols and their aspirations.
-* Copy-pasting rules. Programming per se isn’t central - you can't really learn to speak Chinese in one day, in a similar manner you can only learn the basic vocabulary and expressions in coding. The goal of every event is to make something visible!
-* Girls run this world! But also women, ladies, even boys are allowed in. More than semantics we're interested in a mindset. Both founders were born in the Spice Girls era, they don't see the word girl as condescending or cutesy-cute.
-
-### Example Program
-
-Every Rails Girls event starts with an installation-fest where the setup is pre-installed to the girl's computers. See [guides.railsgirls.com/install](http://guides.railsgirls.com/install) for readymade instructions. The installation-fest can include short talks, but the main point is to offer some sparkling wine, get everything set for the next day and the women to know each other. The timeframe is tentative - you know your audience and what suits them best. We've hosted events both during weekend and weekdays. Also, doing two evenings (4PM - 22 PM) might be a more suitable solution for your community needs.
-
-#### Learning objectives of the workshop:
-
-* Understanding the difference between a dynamic and static web page.
-* Vocabulary of the web: developing a basic understanding of what components make a web application. Understanding the ABCs of coding: strings, methods, variables, arrays, exclamations, chaining, hashed, symbols, blocks.. as well as the tools (terminal, browser, text editor). Creating a conceptual understanding of the web's building blocks: programming languages, frameworks, databases, infrastructure.
-* Have an idea of how to move forward in the programming world: both online and offline.
-
-#### Friday evening: Installation
-
-19:00 - 21:00 Installations and getting to know each other
-*Hint*: Have a coach table where problematic computers can be brought.
-
-Some installations will fail: be prepared to set women up in pairs, don't use endless amounts of time.
-
-Decorate the place with balloons and posters. Put a fun <a href="http://open.spotify.com/user/lindaliukas/playlist/1fgkUFCFDrSn621kf4iHhr">playlist</a> together for the evening.
-
-Come up with activities to break the ice: ask the girls to write why they are attending the event on post-its or to draw and describe their dream web app.
-
-Remember to do a [FridayHug](http://fridayhug.com)!
-
-21 -> Coach dinner
-Go through the application with the coaches during dinner.
+每場 Rails Girls 活動由一場“安裝節慶”開始，將活動所需的環境安裝在女孩們的電腦上。 這裡有準備好的[教學指南](http://guides.railsgirls.com/install)。安裝節慶可以包含簡短的演講，但重點是給女孩提供點氣泡酒，將隔天活動所需的一切準備好，讓女孩們互相認識。時間應該是可以靈活調整的 —— 你知道該怎樣分配時間，才對參與者最好。我們有在週末與工作日辦過活動的經驗。連續兩個晚上（下午四點至晚上十點）可能會更符合你的需求。
 
 
-#### Saturday: Workshop
+#### 工作坊的教學目標
 
-09:00 - 10:00 Registration and coffee
-*Hint* Reserve enough time for people to mingle and to solve any problems there might be with installations. Give out workbooks, collect acronyms for the Bento exercise.
+* 理解靜態與動態網頁的差別。
+* web 世界的術語：。讓學員了解網路應用需要什麼基本元素有個簡單的了解。編程的術語：字串、方法、變數、陣列、破壞性方法、鏈鎖、雜湊、符號、區塊等等。以及認識工具（像是終端機、瀏覽器、文字編輯器）。對打造網路的積木有個概念性的理解：程式語言、網路框架、資料庫、基礎設施。
+* 讓學員有個概念，不管是在有網路，還是沒網路的情況下，如何在程式的世界裡持續學習。
 
-10:00 - 10:10 Welcoming words
-*Hint* Mention sponsors, show what we'll build, tell what programming is.
+#### 週五夜晚：安裝
 
-10:30 - 11:00 UX workshop
 
-11:00 - 11:30 Introduction to programming
-*Hint* Ask one of the coaches to do this. Explain why learning Ruby basics is important even though they'll be using Rails.
+19:00 - 21:00 安裝與互相認識
+*提示*：設立一個教練桌，讓有安裝問題的學員來問問題。
+有些安裝可能會失敗：遇到這種情況，讓女孩跟別人一起學習，不要在安裝上浪費太多時間。
 
-Themes to cover:
-+ The difference between dynamic and static websites: what are web apps?
-+ What are programming languages? What is Rails?
-+ The tools we’ll be using: browser, terminal, code editor, folder structure
+會場用氣球與海報佈置。在活動上放一些有趣的[音樂](http://open.spotify.com/user/lindaliukas/playlist/1fgkUFCFDrSn621kf4iHhr)
 
-Show & tell with <a href="http://tryruby.org">tryruby.org</a>, first three-four exercises all together.
+想一些活動來打破尷尬：讓女孩們在便利貼寫下為什麼來參加活動，或是畫她們夢想中的 web 應用。
 
-11:30 - 13:00 Workshop time
-Going (slowly!) through the curriculum at <a href="http://guides.railsgirls.com/app">guides.railsgirls.com/app</a>. Stop to explain what you’re doing and what the different concepts mean.
+記得要來個 [Friday 抱抱](http://fridayhug.com)！
 
-Try to aim for simple explanations even with the cost of accuracy. You don’t need to talk about all underlying concepts. Just try to answer questions when they arise, or move on if they’re too hard or out of scope. You are not here to teach perfect coding skills but to show how to get stuff done. One has to learn how to build web apps before learning how to do it well.
+九點 -> 教練晚餐
 
-Concepts to cover:
+教練們可以一起溫習第二天要講解的應用。
+
+#### 禮拜六：工作坊
+
+09:00 - 10:00 註冊與咖啡時光
+*提示* 預留足夠的時間讓大家混熟，以及為昨天仍有安裝問題的學員解決問題。分發講義，蒐集便當練習會用到的縮寫。
+
+10:00 - 10:10 歡迎致詞
+*提示* 提一下贊助商，展示即將打造的 web 應用，簡介什麼是寫程式。
+
+10:30 - 11:00 用戶體驗 (UX)工作坊
+
+11:00 - 11:30 編程簡介
+*提示* 請一位教練講解編程。解釋為什麼用 Rails 要懂點基本的 Ruby。
+
+主題應包含：
+
+* 靜態與動態網站的差別：web app 是什麼？
+* 程式語言是什麼？Rails 是什麼？
+* 會用到的工具：瀏覽器、終端、程式碼編輯器、文件夾結構。
+
+展示並介紹 [TryRuby](http://tryruby.org)，一起做 3-4 個練習。
+
+
+11:30 - 13:00 工作坊時間
+慢慢的走一遍 [Rails Girls 教學 APP](http://guides.railsgirls.com/app")。記得停下來解釋你在做什麼以及重要的觀念。試著簡單的解釋觀念，即便是犧牲了準確性。不需要討論高深的概念。試著回答她們的問題，過於艱澀或超出範圍時，應直接跳過。不是要教她們完美的編程技巧，而是讓她們看看事情是如何做的。先打造 web app 出來，接著才想怎麼做好。
+
+概念應包含：
+
 + Rails Generators
 + Scaffolds: Rails App Structure
 + Gem Management
@@ -91,33 +93,39 @@ Concepts to cover:
 + Controllers and ActionController
 + Views and ERB
 
-*Tips:* Coaches are people too. They are doing this for the first time too. Teaching might be hard and intimidating, so remember to be available to help coaches or groups with difficult situations or just provide support and encouragement.
+*小貼士：*
 
-13:00 - 14:00 Lunch
+教練也是人。他們也是第一次當教練。教學對他們來說可能很難或是怯場，記得要在不同情況下，比如教練有困難時即時幫助他們，即便只是鼓勵與支持。
 
-14:00 - 14:30 Bentobox exercise
-Putting technical jargon into a context with a conceptual model called Bentobox.
+13:00 - 14:00 午餐時光
 
-Two exercises: 1) Going through the 10 technical concepts with the physical Bentobox boards.  2) Going through the words the women have themselves submitted with the coaches.
+14:00 - 14:30 Bentobox 練習
 
-+ [Bentobox slidedeck](http://speakerdeck.com/u/railsgirls/p/rails-girls-bentobox-exercise)
-+ [Instruction video](http://vimeo.com/39049632)
+將技術性的術語放在一個叫做 Bentobox 概念性的模型的語境裡。
 
-14:30 - 18:00 Workshop time.
+兩個練習：一、用實際的 Bentobox 板子來講解 10 個技術觀念。二、過一下女孩交給教練的名詞。
 
-Time to continue working on the applications. Monitor the situation: when it seems like people have a hard time concentrating, have the coaches or other speakers give quick lightning talks.
++ [Bentobox 投影片](http://speakerdeck.com/u/railsgirls/p/rails-girls-bentobox-exercise)
++ [教學影片](http://vimeo.com/39049632)
 
-Example topics for lighting talks:
-+ Real (female) programmers telling what their career has been like.
-+ Design: UX & UI. Making mockups together either with paper or computer.
-+ Fun ways of explaining technical concepts and recent frameworks: what is CoffeeScript explained in 80s pop songs? How would you describe GitHub? What coding and creative writing have in common?
-+ Show us something real: don’t speak in abstractions, be specific and tell stories.
+14:30 - 18:00 工作坊時間
 
-Once everyone has finished their app, there is time to extend the application by modifying the CSS, implementing commenting systems etc. Allow enough time for experimentation.
+到了繼續開發應用的時間了。注意氣氛：當大家無法集中注意力的話，讓教練或講師講個快速的閃電秀。
+
+閃電秀的範例講題：
+
++ （女性）職業程式設計師講講她在這個行業裡的體會。
++ 設計：UX 與 UI。用紙或電腦一起畫個 mockup。
++ 用有趣的方式來解釋技術觀念，或是熱門的框架：用 80 年代的經典老歌解釋 CoffeeScript？你心目中的 GitHub？編程與寫作有什麼共通點？
++ 展示一些實際的東西：不要講抽象的事情，具體點，講一些真實的故事。
+
+當所有人都完成她們的 app 時，是時候透過修改 CSS 來擴充應用了或是加入評論系統等等。
+
+演讲的题目可以如下（但不仅限于这些）： + 女性职业程序员谈谈在这个行业中工作的体会。
 
 19:00 After party
-*Hint:*
-Invite everyone, also the local developers, boys, those who weren't accepted, to join!
+*提示：*
+邀請所有人，包括當地的開發者、男孩子們、以及沒被錄取的參與者來加入！
 
 [Fork this project on GitHub][github], add yourself, and send us a pull request.
 
@@ -372,7 +380,7 @@ Best,
 
 (Signature)
 
-##### Sample thank you letter for participants
+##### 給參與者的範例感謝函
 
 Dear Rails Girls,
 
@@ -399,10 +407,6 @@ There was a LOT of interest in doing follow-up events. If you have ideas for thi
 And thats all for now,
 Your Rails Girls team
 
-
-
-
-
 #### What happens after the event?
 
 Inviting real developers to coach is Rails Girls sessions not only gives the participants a chance for hands-on education, but also makes the barrier to enter the technology world lower. How to keep the women coding?
@@ -412,15 +416,13 @@ Inviting real developers to coach is Rails Girls sessions not only gives the par
 * Invite everyone to the Facebook Group where they can ask questions.
 * Invite the women together again within a month. You can host these meetups at the Rails Girls global meetup page <http://www.meetup.com/Rails-Girls/> - we’ll be happy to promote events. However, it doesn't matter under which brand you want to continue meeting - the important thing'
 
-
-
 ---
 
-## Checklist
+## 備忘錄
 
-This is a small checklist for your event. Rails Girls can be thrown together in a matter of weeks, but to truly have time to make a good event, prepare at least two months. Not all of these steps are of course mandatory and they are here just to help you remember.
+以下是個小小的備忘錄。Rails Girls 可以幾週內準備完畢，但好活動是很花時間的，最少準備兩個月。以下的步驟不是都是必要的，只是用來幫助你記憶。
 
-### Before the event:
+### 活動開始前
 
 * Fill in the [application](railsgirls.com/inyourcity) and the team will contact you!
 * Start working with the project plan template on Google Docs
@@ -442,20 +444,20 @@ This is a small checklist for your event. Rails Girls can be thrown together in 
 * Set a date for coach dinner and send them instructions
 * Check if there are other events taking place the same weekend
 
-#### During the event
+#### 活動進行中
 
-* Tweet!
-* Remember to take photos
-* Interview participants and speakers about their experiences
-* Do a Friday Hug! Learn more about Friday hugs at [Fridayhug.com](http://fridayhug.com)
-* Have a Skype with other Rails Girls chapters hosting events at the same time
+* 推特！
+* 記得拍照
+* 採訪參加者與講者，關於參加本次活動的體驗。
+* 記得做 Firday 抱抱！關於更多 Friday 抱抱的訊息：[Fridayhug.com](http://fridayhug.com)。
+* 與同時在世界別處舉辦 Rails Girls 活動的人 Skype 視訊。
 
-#### After the event
+#### 活動結束後
 
-* Update website to include pictures and blogposts
-* Upload your photos to our [official Flickr group](http://flickr.com/groups/railsgirls/) (preferably under a [Creative Commons](http://www.flickr.com/groups/railsgirls/discuss/72157634650757777/) licence!)
-* Invite active participants to [global e-mail list](https://groups.google.com/group/rails-girls-team)
-* Send a thank you note to participants and ask for [feedback](http://www.railsgirls.com/feedback) (you can also create your own feedback form in your local language)
-* Send a thank you note to coaches
-* Send a thank you note for organizers
-* Add yourself to the [Rails Girls Map](http://rails-girls-map.herokuapp.com/)
+* 更新網站，加入圖片與心得文。
+* 上傳照片到我們[官方的 Flickr 小組](http://flickr.com/groups/railsgirls/)，記得選 [Creative Commons](http://www.flickr.com/groups/railsgirls/discuss/72157634650757777/) 授權！
+* 邀請活躍的參與者加入[全球郵件列表](https://groups.google.com/group/rails-girls-team)。
+* 寄一個感謝函並詢問[意見](http://www.railsgirls.com/feedback)（可以創一個當地語言的表格）。
+* 寄感謝函給教練。
+* 寄感謝函給主辦者。
+* 將你們加到 [Rails Girls 地圖](http://rails-girls-map.herokuapp.com/)
