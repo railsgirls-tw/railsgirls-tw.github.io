@@ -14,18 +14,22 @@ permalink: engineyard
 
 Engine Yard 使用不同於 Rails 預設的資料庫。要讓資料庫在 Engine Yard 跑起來，請修改 Gemfile 下面的內容：
 
-		gem 'sqlite3'
+{% highlight ruby %}
+gem 'sqlite3'
+{% endhighlight %}
 
 改為
 
-		group :development do
-			gem 'sqlite3'
-		end
+{% highlight ruby %}
+group :development do
+	gem 'sqlite3'
+end
 
 
-		group :production do
-			gem 'pg'
-		end
+group :production do
+	gem 'pg'
+end
+{% endhighlight %}
 
 執行 `bundle install --without production` 來安裝相依軟體。
 
@@ -48,7 +52,7 @@ Engine Yard 使用不同於 Rails 預設的資料庫。要讓資料庫在 Engine
 
 ### 註冊 Engine Yard 免費測試帳號
 
-到 Engine Yard 的[官網](https://www.engineyard.com/) 點擊 "GET STARTED FREE" 的按鈕來註冊 500 小時免費試用帳號。註冊會寄一封驗證信，檢查妳的 email，按下驗證連結並登入妳的帳號。點選 "Your available applications"
+到 Engine Yard 的[官網](https://www.engineyard.com/)點擊 "GET STARTED FREE" 的按鈕來註冊 500 小時免費試用帳號。註冊會寄一封驗證信，檢查妳的 email，按下驗證連結並登入妳的帳號。點選 "Your available applications"
  下的連結（"Engine Yard Cloud"），這會帶妳到主控台。
 
 ### 建立 Engine Yard 雲帳戶

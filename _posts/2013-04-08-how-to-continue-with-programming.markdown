@@ -24,7 +24,7 @@ were so focused on coding that we just didn't wanted to interrupt them. :)
 
 So here it goes:
 
-## 1. Keep on Coding
+## 1. 持續寫程式吧！
 
 Mastering a craft requires constant repeating and perseverance.
 This also applies to programming. I encourage you to repeat the Rails
@@ -34,16 +34,17 @@ it some more.
 After that here are some free and paid resources which will help you
 to take things to the next level:
 
-### Courses
+### 課程
 
 * [Rails for Zombies](http://railsforzombies.org/) - A Rails Screencast which was created by [Codeschool](http://codeschool.com). Its free and Codeschool provides also a series of paid [Ruby and Rails](http://www.codeschool.com/paths/ruby#starting-rails) courses which are awesome. You should really try them!
+
 * [Codecademy](http://www.codecademy.com/) - The world isn't just created with rubiez. There are also plenty of other languages like HTML/CSS, JavaScript, Python and so on. Try them out.
 
-### Books
+### 書籍
 
 * [Rails Tutorial](http://ruby.railstutorial.org/) - A awesome book which has a free HTML version and a paid print version. The book provides you with a lot of great material which we couldn't cover at the Rails Girls workshop.
 
-### Screencasts & Videos
+### 影片教學
 
 * [Railscasts](http://railscasts.com/) - Short and simple screencasts about Rails by Ryan Bates.
   **Note**: *Ryan is giving away 3 month RailsCasts pro subscription coupons to all Rails Girls attendees for free.
@@ -52,13 +53,13 @@ to take things to the next level:
 * [Peepcode](https://peepcode.com/) - Paid Screencasts by Geoffrey Grosenbach.
 * [Richard Schneems Screencast](http://www.youtube.com/user/schneems/videos)
 
-### MOAR
+### 更更更更多！
 
 * [Thoughtbot Trail-Map](https://github.com/thoughtbot/trail-map) - Guides to different topics.
 
 > If you have any other good resources, [hit me](mailto:daniel@codegestalt.com) so I can put them into the list.
 
-## 2. Build something real
+## 2. 做些實際的東西
 
 Build something real means you should try to create something which is actually needed in the end.
 The hardest part will be to find a real project.
@@ -74,7 +75,7 @@ If you still have trouble finding something you can work on I have an idea for y
 Build a Rails Girls website for your country or city. In Switzerland we encourage the girls to work
 on our swiss wide Rails Girls website: [railsgirls.ch](http://railsgirls.ch/).
 
-## 3. Get in touch
+## 3. 保持聯絡
 
 Its always easier when you have someone you can ask.
 With this in mind, go out and find someone who you can talk to.
@@ -112,7 +113,7 @@ Try to setup such a list for your event too, this way its a lot easier to stay i
 with the people who sat around the same table as you did.
 If you don't know how, ask someone of the organizers of the event if she or he could do it.
 
-## 4. Have fun
+## 4. 玩樂
 
 Last but not least, have fun.
 If you don't enjoy programming it is probably not the right thing for you.
@@ -129,7 +130,7 @@ Ask the organizers and coaches of your event for their email addresses and if th
 
 Thats it, keep on coding and let's build the future!
 
-## 5. More resources
+## 5. 更多資源
 
 - [8 ways to enable workshop attendess to keep learning](http://pragtob.wordpress.com/2013/06/14/8-ways-to-enable-workshop-attendess-to-keep-learning/)
 
