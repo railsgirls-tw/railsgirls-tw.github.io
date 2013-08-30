@@ -81,9 +81,8 @@ attr_accessible :email, :password, :password_confirmation
 
 ## 步驟三：設定 User 模型
 
-使用 devise 的產生器
+使用 devise 的產生器來建立 User 模型：
 
-We'll use a bundled generator script to create the User model.
 {% highlight sh %}
    rails g devise user
    rake db:migrate
