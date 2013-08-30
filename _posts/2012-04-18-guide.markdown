@@ -248,9 +248,12 @@ Yours, name
 
 __贊助商可以獲得什麼？__
 
-* 活動網站上擺放 Logo
+* 活動網站上擺放 Logo。
+
 * 活動時有張桌子，可以分發傳單或是紀念品。
+
 * 有機會與與會者談 5 分鐘。
+
 * 多數的活動裡，活動結束後贊助商可以使用官方拍的照片。
 
 別洩漏參加者的資訊，但贊助商可在活動分發傳單讓人填寫。記得要給贊助商寫個感謝小卡。贊助商的紀念品可以包含在禮包裡，要是有用的東西，與女性有關的東西，而不是對女性無用的物品。
@@ -261,12 +264,14 @@ __贊助商可以獲得什麼？__
 
 #### 誰可以舉辦 Rails Girls 工作坊？
 
-
 任何人。我們在找的是一群這樣的人，花心思讓女性第一次進入網路世界，就留下美好的初體驗。我們想看到的是擁有如下特質的人（不用全都滿足）：
 
 * 熟悉當地開發者社群。不分技術，所以不用是純 Ruby 或 Rails 開發者。實際上每個活動需要 5 位（或更多，取決於妳要收多少學員），具有 Rails 基本知識的教練，貢獻兩天時間時間投入活動。每次活動大約是 25 - 40 人。
+
 * 了解如何舉辦活動的人。不用非常厲害，但至少有點經驗。
+
 * 對於如何找到對技術感興趣女性的人有想法的人。我們找的是對科技感興趣的女性，不管大學學的是文學、還是藝術、或是體育，都可以，我們要找的是沒有寫程式經驗，但對技術感興趣的人。
+
 * 未來當女性碰到問題，或是想舉辦她們的活動、找到當地開發者聚會時，願意指點她們的人。
 
 你是這樣的人嗎？從填寫這個表格開始：[http://railsgirls.com/inyourcity](http://railsgirls.com/inyourcity)，我們的人將會聯絡你。
@@ -339,7 +344,9 @@ For more information about the non-profit event, check railsgirls.com or guides.
 目前為止，我們有
 
 * 貼紙
+
 * 反光貼紙
+
 * 刺青
 
 同時看看這個
@@ -355,7 +362,9 @@ Rails Girls 是為所有人設計的，我們想讓它適用於所有年齡層�
 挑選完參加者之後，通常會分成三組：
 
 1. 沒有程式經驗的人
+
 2. 有某些前端經驗的人（HTML, CSS, JavaScript）。
+
 3. 有點程式經驗或是背景是資工的人。
 
 可以給不同小組的人用不同的名牌（rubies, foxes, octocats, rails...）
@@ -458,11 +467,17 @@ Your Rails Girls team
 * 聯絡當地教練 — 找五個人願意加入的教練。
 
 * 發佈網站：確定主題
+
   1. 日期與地點。
+
   2. 報名截止日。
+
   3. 約 200 字的簡短介紹。可參考以往的活動！
+
   4. 當天的講者
+
   5. 合作夥伴 — 兩句話介紹，以及 100 x 100px 或 250 x 250px 大小的 logo，PNG 格式。
+
   6. 教練的 Twitter ID
 
 * 開始推銷活動，可以用[這裡](http://www.speakerdeck.com/u/railsgirls)的材料。
@@ -482,17 +497,26 @@ Your Rails Girls team
 #### 活動進行中
 
 * 推特！
+
 * 記得拍照
+
 * 採訪參加者與講者，關於參加本次活動的體驗。
+
 * 記得做 Firday 抱抱！關於更多 Friday 抱抱的訊息：[Fridayhug.com](http://fridayhug.com)。
+
 * 與同時在世界別處舉辦 Rails Girls 活動的人 Skype 視訊。
 
 #### 活動結束後
 
 * 更新網站，加入圖片與心得文。
+
 * 上傳照片到我們[官方的 Flickr 小組](http://flickr.com/groups/railsgirls/)，記得選 [Creative Commons](http://www.flickr.com/groups/railsgirls/discuss/72157634650757777/) 授權！
+
 * 邀請活躍的參與者加入[全球郵件列表](https://groups.google.com/group/rails-girls-team)。
+
 * 寄一個感謝函並詢問[意見](http://www.railsgirls.com/feedback)（可以創一個當地語言的表格）。
+
 * 寄感謝函給教練。
+
 * 寄感謝函給主辦者。
 * 將你們加到 [Rails Girls 地圖](http://rails-girls-map.herokuapp.com/)
