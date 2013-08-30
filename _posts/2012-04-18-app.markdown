@@ -12,7 +12,6 @@ permalink: app
 
 **確定妳已安裝好 Rails**，尚未安裝請參考[**安裝指南**](/install)。
 
-
 ## 認識工具
 
 <div class="indent" markdown="1">
@@ -328,7 +327,6 @@ mount_uploader :picture, PictureUploader
 
 **教練：** 稍微講講 HTML。
 
-
 ## Step 5: 調整路由
 
 如果妳試著開啟 [http://localhost:3000](http://localhost:3000)，它仍顯示 "Welcome aboard" 頁面。讓我們來把這頁導到 ideas 頁面。
@@ -359,7 +357,7 @@ root :to => redirect('/ideas')
 * Guide 1: [加入評論功能 by Janika Liiv](/commenting)
 * Guide 2: [把應用放到 Heroku by Terence Lee](/heroku)
 * Guide 3: [Build a map of workshop participants by Rails Girls Berlin](http://railsgirlsberlin.de/apptutorial/)
-* Guide 4: [Create thumbnail images for the uploads by Miha Filej](/thumbnails)
+* Guide 4: [給上傳的圖片建立縮圖 by Miha Filej](/thumbnails)
 * Guide 5: [使用 HTML 與 CSS 添加設計 by Alex Liao](/design)
 * Guide 6: [用 Devise 加入驗證功能 by Piotr Steininger](/devise/)
 * Guide 7: [Go through additional explanations for the App by Lucy Bain](https://github.com/lbain/railsgirls)

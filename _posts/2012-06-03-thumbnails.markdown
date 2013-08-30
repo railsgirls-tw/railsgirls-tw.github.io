@@ -4,59 +4,54 @@ title: 列出 idea 時顯示縮圖
 permalink: thumbnails
 ---
 
-# Create thumbnails with Carrierwave
+# 用 Carrierwave 建立縮圖
 
 *Created by Miha Filej, [@mfilej](https://twitter.com/mfilej)*
 
-**教練：** Explain what specifying the image width in HTML at the end of Step
-4 does and how it differs from resizing images on the server.
+**教練：** 在第四個步驟完成時，解釋 HTML 怎麼控制圖片寬度跟伺服器將圖重新縮放的差別。
 
-## Installing ImageMagick
+## 安裝 ImageMagick
 
-* OS X: run `brew install imagemagick`. If you don't have the brew command, you can [install Homebrew here][in-homebrew].
-* Windows: download and run the [ImageMagick installer][im-win] (use the first
-  *download* link).
-* Linux: On Ubuntu and Debian, run `sudo apt-get install imagemagick`. Use the
-  appropriate package manager instead of `apt-get` for other distributions.
+* OS X: 執行 `brew install imagemagick`. 如果你沒有 `brew` 命令，可以[在這裡安裝 homebrew。][in-homebrew]
+* Windows: 下載並執行 [ImageMagick installer][im-win] （用第一個連結下載）。
+* Linux: Ubuntu 以及 Debian，執行 `sudo apt-get install imagemagick`。其它的發行版請用對應的套件管理命令。
 
   [im-win]: http://www.imagemagick.org/script/binary-releases.php?ImageMagick=vkv0r0at8sjl5qo91788rtuvs3#windows
   [in-homebrew]: http://mxcl.github.io/homebrew/
 
-**教練：** What is ImageMagick and how is it different from libraries/gems we
-used before?
+**教練：** ImageMagick 是什麼？跟我們之前用的 `libraries/gems` 有什麼差別？
 
-Open `Gemfile` in the project and add
+打開專案的 `Gemfile` 並加入
 
 {% highlight ruby %}
 gem 'mini_magick', '3.5.0'
 {% endhighlight %}
 
-under the line
+在這行下面
 
 {% highlight ruby %}
 gem 'carrierwave'
 {% endhighlight %}
 
-In the Terminal run:
+在終端裡執行
 
 {% highlight sh %}
 bundle
 {% endhighlight %}
 
-## Telling our app to create thumbnails when an image is uploaded
+## 跟 app 說上傳圖片時建立縮圖
 
-Open `app/uploaders/picture_uploader.rb` and find the line that looks like
-this:
+開啟 `app/uploaders/picture_uploader.rb` 並找到這行
 
 {% highlight ruby %}
   # include CarrierWave::MiniMagick
 {% endhighlight %}
 
-Remove the `#` sign.
+移除 `#` 符號。
 
-**教練：** Explain the concept of comments in code.
+**教練：** 解釋程式碼裡註解的概念。
 
-Below the line you just changed, add:
+在妳剛剛變更的那行下面，新增
 
 {% highlight ruby %}
 version :thumb do
@@ -64,23 +59,20 @@ version :thumb do
 end
 {% endhighlight %}
 
-The images uploaded from now on should be resized, but the ones we already
-have weren't affected. So edit one of the existing ideas and re-add a picture.
+現在上傳的圖片應該可以變更大小了，已經加入的圖片不受影響。來編輯看看已加入的圖片，並重新傳一張圖。
 
-## Displaying the thumbnails
+## 顯示縮圖
 
-To see if the uploaded picture was resized open
-`app/views/ideas/index.html.erb`. Change the line
+要確認上傳的圖片有縮圖成功，打開 `app/views/ideas/index.html.erb`。將這行
 
 {% highlight erb %}
 <td><%= idea.picture %></td>
 {% endhighlight %}
 
-to
+改成
 
 {% highlight erb %}
 <td><%= image_tag idea.picture_url(:thumb) if idea.picture? %></td>
 {% endhighlight %}
 
-Take a look at the list of ideas in the browser to see if the thumbnail is
-there.
+到瀏覽器看看 idea 清單，看看縮圖是不是有出現。
