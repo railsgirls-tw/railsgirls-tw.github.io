@@ -10,7 +10,7 @@ permalink: design
 
 *Translated by JuanitoFatas, [@JuanitoFatas](https://twitter.com/juanitofatas)*
 
-現在 app 執行的很好，但看起來仍像是用鷹架搭的。讓我們加點設計到 app，讓它看起來像專業的網站吧。當妳完成本教學時，妳的 app 會看起來像[這樣](http://railsgirlsapp.herokuapp.com/ideas)。
+現在 app 執行的很好，但看起來仍像是用鷹架搭的。讓我們加點設計到 app，讓它看起來像專業的網站吧。當妳完成本教學時，妳的 app 看起來會像[這樣](http://railsgirlsapp.herokuapp.com/ideas)。
 
 ## 第一步：調整應用的版面
 
@@ -102,7 +102,7 @@ body { padding-top: 60px; }
 
 重新整理！我們獲得了一個可愛的 idea 清單。按下 "New Idea" 按鈕，用真實的文字與漂亮的圖片加入更多想法吧！─ 網頁有越多內容，看起就會更好。現代網頁設計原理之一：內容是最好的裝飾品。
 
-## 第四步：設計想法的細節頁面
+## 第四步：設計 idea 的細節頁面
 
 按下 idea 的標題，妳會被帶到 idea 的細節頁面。現在看起來仍然是用 Rails 鷹架產生的，讓我們來把它變更好吧。
 
@@ -133,6 +133,6 @@ body { padding-top: 60px; }
 
 ## 下一步
 
-* 使用新學到的知識來設計新的想法
-* 如果妳想的話，可以加入更多設計。
-* 按照其它指南學更多 Rails
++ 使用新學到的知識來設計新的想法
++ 如果妳想的話，可以加入更多設計。
++ 按照其它指南學更多 Rails
