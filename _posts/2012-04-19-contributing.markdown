@@ -1,27 +1,35 @@
 ---
 layout: default
-title: Contributing a Guide
+title: 貢獻一篇指南
 permalink: contributing
 ---
 
-# Contributing a Guide
+# 貢獻一篇指南
 
-The guides site uses [jekyll](https://github.com/mojombo/jekyll) to power the site and all the documents are written using [markdown](http://daringfireball.net/projects/markdown/). To contribute a guide, you just need to follow these simple steps.
+本站背後的技術採用 [jekyll](https://github.com/mojombo/jekyll)，所有的文件用 [markdown](http://markdown.tw/) 寫成。要貢獻一篇指南，只需要下列幾個簡單的步驟。
 
-1. Fork the [repository on github](https://github.com/railsgirls/railsgirls.github.com) by clicking on the "Fork" button.
-2. Do a `git clone` of your fork.
-3. Create a file named `YYYY-MM-DD-guide_name.markdown` inside the `_posts` directory of your fork.
-4. In this file, you'll need to add some YAML front matter at the top of the file so it looks like this:{% highlight yaml %}
+1. 到 [GitHub repository](https://github.com/railsgirls/railsgirls.github.com) 按 Fork 按鈕 Fork 一份。
+
+2. `git clone` 把 fork 抓下來。
+
+3. 在 `_posts` 目錄下新增一個名字是這種格式 `YYYY-MM-DD-guide_name.markdown` 的檔案。
+
+4. 在這個檔案裡，需要在檔案最上方加些 YAML 格式東西：
+
+{% highlight yaml %}
 ---
 layout: default
 title: Name of the Guide
 permalink: one-word-summary.html
 ---
 {% endhighlight %}
-5. Commit this new guide to your git repo.
-6. After you commit, push that to your fork.
-7. You can now open a pull request explaining your guide. That's it!
 
-You can follow the structure of our [Rails Girls App Tutorial](https://github.com/railsgirls/railsgirls.github.com/blob/master/_posts/2012-04-18-app.markdown).
+5. 指南寫好 commit 一下。
 
-Thanks so much for taking the time to help us make Rails Girls awesome.
+6. Commit 完就 push 到妳的 fork 上吧。
+
+7. 現在妳可以開一個 pull request 並解釋妳的指南是關於什麼的，就這麼簡單！
+
+文章的結構可以按照我們的 [Rails Girls App 教學](https://github.com/railsgirls/railsgirls.github.com/blob/master/_posts/2012-04-18-app.markdown)。
+
+非常感謝花費寶貴時間來幫助 Rails Girls 變得更好。
