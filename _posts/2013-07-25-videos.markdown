@@ -6,7 +6,7 @@ permalink: videos
 
 # Rails Girls 幸福滿世界
 
-以下來自世界各地的精選 Rails Girls 影片。拍了一支影片嗎？加到這吧。
+精選世界各地的 Rails Girls 影片。拍了一支影片嗎？加到這吧。
 
 ### Rails Girls Brno 2013
 
@@ -52,7 +52,6 @@ permalink: videos
 ### Rails Girls Cologne 2012
 
 <div><iframe src="http://player.vimeo.com/video/51511255" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/51511255">Rails Girls Cologne - September 2012</a> from <a href="http://vimeo.com/user14112349">Liane Th&ouml;nnes</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
-
 
 ### Rails Girls Ljubljana 2012
 

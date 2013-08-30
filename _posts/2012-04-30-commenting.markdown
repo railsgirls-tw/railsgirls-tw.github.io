@@ -3,40 +3,48 @@ layout: default
 title: 給 Rails Girls 應用加入評論功能
 permalink: commenting
 ---
-# Commenting for Rails Girls App
+
+# Rails Girls App 評論功能
+
 *Created by Janika Liiv, [@janikaliiv](https://twitter.com/janikaliiv)*
 
 We are going to add the possibility to comment ideas in your *railsgirls* application.
 
 The instructions for installing rails and building the ideas app can be found [here](/app)
 
-## Step 1: Add foreigner gem
+## Step 1: 加入 foreigner gem
 
-Add to Gemfile
+加入 Gemfile
+
 {% highlight ruby %}
 gem 'foreigner'
 {% endhighlight %}
 
-In your terminal stop the server if it's running and type
+安裝相依套件（如果伺服器正在跑，按 `CTRL-C` 停止。）
+
 {% highlight sh %}
 bundle install
 {% endhighlight %}
 
-## Step 2: Create comment scaffold
+## Step 2: 建立 comment 鷹架
 
-Create comment scaffold, with the commentator name, the comment body (contents of the comment) and with the reference to the ideas table (idea_id).
+建立 comment 鷹架，有評論者的姓名、評論內容以及這是哪個評論哪個 idea （idea_id）。
+
 {% highlight sh %}
 rails g scaffold comment user_name:string body:text idea_id:integer
 {% endhighlight %}
 
-## Step 3: Add foreign key connections
+## Step 3: 加入 foreign key 連結
+
 Add to migration the foreign key connection. Open db/migrate/ and the file, which name ends with 'create_comments.rb'. After
+
 {% highlight ruby %}
 t.timestamps
 end
 {% endhighlight %}
 
 add
+
 {% highlight ruby %}
 add_foreign_key :comments, :ideas
 {% endhighlight %}
@@ -51,7 +59,7 @@ start your server with:
 rails s
 {% endhighlight %}
 
-## Step 4: Add relations to models
+## Step 4: 加入模型關係
 
 You need to make sure that Rails knows the connection between objects (ideas and comments).
 As one idea can have many comments we need to make sure the idea model knows that.
@@ -74,7 +82,7 @@ add the row
 belongs_to :idea
 {% endhighlight %}
 
-## Step 5: Render the comment form and existing comments
+## Step 5: 渲染評論的表格及加入現有評論
 
 Open app/views/ideas/show.html and after the image_tag
 {% highlight erb %}

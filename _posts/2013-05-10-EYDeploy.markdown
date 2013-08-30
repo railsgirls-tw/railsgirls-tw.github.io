@@ -12,14 +12,9 @@ permalink: engineyard
 
 #### 確定妳的資料庫是 PostgreSQL。
 
-
-
 Engine Yard 使用不同於 Rails 預設的資料庫。要讓資料庫在 Engine Yard 跑起來，請修改 Gemfile 下面的內容：
 
-
-
 		gem 'sqlite3'
-
 
 改為
 
@@ -32,14 +27,11 @@ Engine Yard 使用不同於 Rails 預設的資料庫。要讓資料庫在 Engine
 			gem 'pg'
 		end
 
-
-
 執行 `bundle install --without production` 來安裝相依軟體。
 
 #### 版本管理系統
 
-You need to add your app to your Git repository. You can do this by running the following in the terminal:
-
+妳需要把妳的 app 加到 Git 代碼倉庫（repository）。在終端裡執行下面的命令：
 
 >	`git init`
 
@@ -48,26 +40,27 @@ You need to add your app to your Git repository. You can do this by running the 
 >	`git commit -m "initial commit"`
 
 
-__COACH__: This would be a good time to talk about version control systems and git.
+**教練：** 講解版本管理系統以及 Git 的好時機。
 
-### Be Sure to Have a Rails Application in a Repository on Github
+### 確認 GitHub 上有個 Rails 的應用
 
-You will need to have a GitHub account and a repo we can pull an app from. Follow these directions on [GitHub](https://help.github.com/articles/create-a-repo) to create a repo and push your app to it. If you do not have a working Rails application, you can fork [Engine Yard's sample todo app](https://github.com/engineyard/todo) to your own repo. A coach can walk you through this if you need help.
+妳需要有個 GitHub 帳號，以及一個 repo，讓 Engine Yard 可以抓妳的 app。按照 [GitHub 官方的步驟](https://help.github.com/articles/create-a-repo)來建立一個 repo 並將 app 傳上去。如果你沒有可以跑的 Rails 應用，可以 fork [Engine Yard 提供的範例 TODO app](https://github.com/engineyard/todo)。妳需要幫忙的話，教練可以帶你走一遍。
 
-### Sign up for a Free Trial Engine Yard Account
+### 註冊 Engine Yard 免費測試帳號
 
-Go to Engine Yard's [Website](https://www.engineyard.com/) and click on "Ruby" to sign up for your Free 500 Hour Trial. The sign up will send you a confirmation email, so go check your email, click on the link and sign in to your account. Click on the link under "Your available applications" that says "Engine Yard Cloud". This will take you to your dashboard.
+到 Engine Yard 的[官網](https://www.engineyard.com/) 點擊 "GET STARTED FREE" 的按鈕來註冊 500 小時免費試用帳號。註冊會寄一封驗證信，檢查妳的 email，按下驗證連結並登入妳的帳號。點選 "Your available applications"
+ 下的連結（"Engine Yard Cloud"），這會帶妳到主控台。
 
-### Create your Engine Yard Cloud account
+### 建立 Engine Yard 雲帳戶
 
-1. 	Choose a name for your account. We suggest picking something relevant to who you are, either as a developer, or as an organization if you will be having collaborators. Click the button "Start Trial"
+1. 為妳的帳號選個名字。建議選個與妳相關的，選擇開發者或機構（如果你會有協作者的話）。按下 "Start Trial" 按鈕。
 
-2. 	Feel free to explore what is in the drop downs, but let's go with the defaults for now, since they are in line with a basic Rails app.
+2. Feel free to explore what is in the drop downs, but let's go with the defaults for now, since they are in line with a basic Rails app.
 
 3. 	In the box labeled "Git Repository URI", paste the URI from your Github repo. Be sure to use the URI from the SSH version of your application. HINT: The format should be the same as the placeholder text on your Engine Yard application page (or like this: "git@github.com:mfjenn/blogotron.git")
 
 
-### Putting Your Deploy Key in Place
+### 加入妳的佈署金鑰
 
 You should now be on a page that says "Allow Engine Yard access to private repository".
 
@@ -77,37 +70,39 @@ You should now be on a page that says "Allow Engine Yard access to private repos
 4.	Paste the block of text from your Engine Yard page here. Save it
 5.	Go back to your Engine Yard Page and Click the button that says, "My deploy key is in place".
 
-__COACH__: Talk about the difference between private and public repos and when to use either.
+**教練：** Talk about the difference between private and public repos and when to use either.
 
-### Creating and Configuring Your Environment
+### 建立與設定環境
 
 Once you click the "My deploy key is in place" button, you will be taken to a page that says, "Create New Environment for (Your Account Name) App". It is here where we will configure your application. Feel free to explore all the options in the drop downs, but let's use the defaults for now. You do not need to set a domain name.
 *	Click the button that says, "Create Environment".
 
-#### Environment Setup
+#### 環境設定
 
 On this page, let's select the staging configuration.
+在這頁，可以選擇 staging 的設定
+
+
 *	Click "Boot This Configuration". You will go to a new page where you see several status bars moving. Our Platform is provisioning your instances. We need to wait till these turn to green dots. This usually takes about 10 minutes, so does anyone need to take a break? It's a good time to go grab some water or a coffee.
 
-__COACH__: Talk about Staging vs. Production, and why it's important to have replicas. Talk about what is a master & Slave. How does Engine Yard's Failover work? Why is that important?
+**教練：** 講解 Staging 與 Production 的差別，為什麼有重複的環境很重要？講解 master & slave 是什麼。Engine Yard 的 Failover 的工作原理？為什麼這個很重要？
 
+#### 佈署妳的應用
 
-#### Deploying Your Application
+1. 當所有的燈變綠燈的時候，按 "Deploy"。
 
-1.	Once all of the lights are green, click "Deploy".
-2.	Once you see the phrase "YOUR NAME successfully deployed HEAD" you will know it has been deployed! Congratulations!
-3.	Click on the link that says "View your application" to visit your application online.
-4.	If you get a red notification that your deploy failed, we just have some debugging to do. Raise your hand and a coach can come over to to help.
+2. 一旦妳看到這段話 "YOUR NAME successfully deployed HEAD"，恭喜妳，佈署成功！
 
+3. 按 "View your application" 來訪問妳上線中的 app。
 
-#### Stopping Your Instances to Save Your Hours
+4. 如果妳看到紅色的提示說佈署失敗，我們需要來研究看看。舉手找個教練來幫忙。
 
-Once you've got your app up & running, be sure to click the "stop" button to stop the instances so that your don't burn through all of your hours. You can always start them again.
+#### 停止執行中的 app 來節省時間
 
-### Additional Resources
-*	[A video tutorial](https://support.cloud.engineyard.com/entries/21009937-Video-Tutorial-Set-up-an-Account-and-Deploy-an-Application)
+一旦妳把 app 跑起來以後，記得按 "stop" 按鈕來節省寶貴的 500 小時免費試用時間，當然妳可以再次啟動 app。
 
-*	[Another Tutorial From the Engine Yard Site](https://support.cloud.engineyard.com/entries/20996751-Tutorial-How-to-Deploy-the-ToDo-Application-on-a-Trial-Account)
+### 其它資源
 
+*	[影片教學](https://support.cloud.engineyard.com/entries/21009937-Video-Tutorial-Set-up-an-Account-and-Deploy-an-Application)
 
-
+*	[來自 Engine Yard 官網的教學文章](https://support.cloud.engineyard.com/entries/20996751-Tutorial-How-to-Deploy-the-ToDo-Application-on-a-Trial-Account)

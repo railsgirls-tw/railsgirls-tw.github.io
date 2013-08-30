@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 列出概念時顯示縮圖
+title: 列出 idea 時顯示縮圖
 permalink: thumbnails
 ---
 
@@ -8,7 +8,7 @@ permalink: thumbnails
 
 *Created by Miha Filej, [@mfilej](https://twitter.com/mfilej)*
 
-__Coach__: Explain what specifying the image width in HTML at the end of Step
+**教練：** Explain what specifying the image width in HTML at the end of Step
 4 does and how it differs from resizing images on the server.
 
 ## Installing ImageMagick
@@ -22,7 +22,7 @@ __Coach__: Explain what specifying the image width in HTML at the end of Step
   [im-win]: http://www.imagemagick.org/script/binary-releases.php?ImageMagick=vkv0r0at8sjl5qo91788rtuvs3#windows
   [in-homebrew]: http://mxcl.github.io/homebrew/
 
-__Coach__: What is ImageMagick and how is it different from libraries/gems we
+**教練：** What is ImageMagick and how is it different from libraries/gems we
 used before?
 
 Open `Gemfile` in the project and add
@@ -54,7 +54,7 @@ this:
 
 Remove the `#` sign.
 
-__Coach__: Explain the concept of comments in code.
+**教練：** Explain the concept of comments in code.
 
 Below the line you just changed, add:
 

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "After The Event: How To Continue With Programming"
+title: "活動過後：如何繼續學寫程式"
 permalink: how-to-continue-with-programming
 ---
 
-# After The Event: How To Continue With Programming
+# 活動過後：如何繼續學寫程式
 
 *Created and edited for general use by Daniel Puglisi, [@danielpuglisi](http://twitter.com/danielpuglisi).*
 

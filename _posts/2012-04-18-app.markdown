@@ -19,8 +19,7 @@ permalink: app
 
 <h3><i class="icon-text-editor">&nbsp;</i></h3>
 ### 編輯器
-
-[Sublime Text](http://www.sublimetext.com), [Komodo Edit](http://www.activestate.com/komodo-edit), Vim, Emacs, 以及 Gedit 都是妳可以用來寫程式及編輯檔案的編輯器。
+[Sublime Text](http://www.sublimetext.com)、[Komodo Edit](http://www.activestate.com/komodo-edit)、Vim、Emacs 以及 Gedit 都是妳可以用來寫程式及編輯檔案的編輯器。
 
 <h3><i class="icon-prompt">&nbsp;</i></h3>
 ### 終端 (Windows 叫命令提示字元)
@@ -249,7 +248,7 @@ th { border-bottom: 1px solid #DDD !important; }
 
 現在確保妳已存檔，並將瀏覽器重新整理，來看看什麼被改變了。妳也可以繼續調整 HTML 與 CSS。
 
-**Coach:** 稍微講講 CSS 與 layout。
+**教練：** 稍微講講 CSS 與 layout。
 
 ## Step 4: 加入圖片上傳
 
@@ -327,7 +326,7 @@ mount_uploader :picture, PictureUploader
 
 現在重新整理妳的瀏覽器，看看發生了什麼？
 
-**Coach:** 稍微講講 HTML。
+**教練：** 稍微講講 HTML。
 
 
 ## Step 5: 調整路由
@@ -350,17 +349,17 @@ root :to => redirect('/ideas')
 ## 下一步？
 
 + 使用 HTML &amp; CSS 加入設計。
-+ 加入評分功能
++ 加入評分功能（ratings）
 + 使用 CoffeeScript （或 JavaScript）加入互動。
 + 加入圖片大小轉換使加載圖片更快完成。
 
 ## 其它指南
 
 * Guide 0: [Handy cheatsheet for Ruby, Rails, console etc.](https://github.com/PragTob/rails-beginner-cheatsheet)
-* Guide 1: [Add commenting by Janika Liiv](/commenting)
-* Guide 2: [Put your app online with Heroku by Terence Lee](/heroku)
+* Guide 1: [加入評論功能 by Janika Liiv](/commenting)
+* Guide 2: [把應用放到 Heroku by Terence Lee](/heroku)
 * Guide 3: [Build a map of workshop participants by Rails Girls Berlin](http://railsgirlsberlin.de/apptutorial/)
 * Guide 4: [Create thumbnail images for the uploads by Miha Filej](/thumbnails)
-* Guide 5: [Add design using HTML &amp; CSS by Alex Liao](/design)
-* Guide 6: [Add Authentication (user accounts) with Devise by Piotr Steininger](/devise/)
+* Guide 5: [使用 HTML 與 CSS 添加設計 by Alex Liao](/design)
+* Guide 6: [用 Devise 加入驗證功能 by Piotr Steininger](/devise/)
 * Guide 7: [Go through additional explanations for the App by Lucy Bain](https://github.com/lbain/railsgirls)
