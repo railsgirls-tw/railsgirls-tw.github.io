@@ -4,52 +4,57 @@ title: 用 Devise 加入驗證功能
 permalink: devise
 ---
 
-# Adding Authentication with Devise
+# 使用 Devise 加入驗證功能
 
 *Created by Piotr Steininger, [@polishprince](https://twitter.com/polishprince)*
 
 *Updated by Ernesto Jimenez, [@ernesto_jimenez](https://twitter.com/ernesto_jimenez)*
 
-**This guide assumes that you have already built a RailsGirls app by ** [**following the app development guide**](/app).
+*Translated by JuanitoFatas, [@JuanitoFatas](https://twitter.com/juanitofatas)*
 
+**本指南假設妳已經跟著[app 開發指南](/app)做好了一個 RailsGirls 應用**。
 
-## Step 0: Add devise gem
+## 步驟零： 加入 devise gem
 
-Open up your `Gemfile` and add this line
+打開妳的 `Gemfile` 並加入下面這行
 
 {% highlight ruby %}
 gem 'devise'
 {% endhighlight %}
-and run
+
+並執行
+
 {% highlight sh %}
 bundle install
 {% endhighlight %}
-to install the gem. **Also remember to restart the Rails server**.
 
-## Step 1: Set up devise in your app
+來安裝 devise gem。 **記得重新啟動 Rails 伺服器**。
 
-Run the following command in the terminal.
+## 步驟一：幫 app 設定好 devise
+
+在終端裡執行以下命令。
 
 {% highlight sh %}
 rails g devise:install
 {% endhighlight %}
 
-Then add this line to your `app/models/user.rb`:
+接著打開 `app/models/user.rb` 加入這行：
 
 {% highlight ruby %}
 attr_accessible :email, :password, :password_confirmation
 {% endhighlight %}
 
-## Step 2: Configure Devise
+## 步驟二：設定 Devise
 
-Ensure you have defined default url options in your environments files. Open up `config/environments/development.rb` and add this line:
+確定妳的環境檔案已定義預設網址，打開 `config/environments/development.rb` 並加入：
+
 {% highlight ruby %}
    config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 {% endhighlight %}
 
-before the `end` keyword.
+這行放在 `end` 關鍵字之前哦
 
-Open up `app/views/layouts/application.html.erb` and add:
+打開 `app/views/layouts/application.html.erb` 並加入：
 
 {% highlight erb %}
 <% if notice %>
@@ -59,18 +64,24 @@ Open up `app/views/layouts/application.html.erb` and add:
   <p class="alert alert-error"><%= alert %></p>
 <% end %>
 {% endhighlight %}
-right above
+
+加在這行上面
+
 {% highlight ruby %}
    <%= yield %>
 {% endhighlight %}
 
-Finally, if you plan to [deploy to heroku](/heroku) you should open up `config/application.rb` and add this line:
+最後，如果妳預計要[佈署到 Heroku](/heroku)，打開 `config/application.rb` 並加入這行：
+
 {% highlight ruby %}
   config.assets.initialize_on_precompile = false
 {% endhighlight %}
-as third line from the bottom (before the first of two `end` keywords)
 
-## Step 3: Setup the User model
+從最下面數來第三行，加在兩個 `end` 關鍵字的上面。
+
+## 步驟三：設定 User 模型
+
+使用 devise 的產生器
 
 We'll use a bundled generator script to create the User model.
 {% highlight sh %}
@@ -78,20 +89,20 @@ We'll use a bundled generator script to create the User model.
    rake db:migrate
 {% endhighlight %}
 
-**Coach:** Explain what user model has been generated. What are the
-fields?
+**教練：** 解釋產生了什麼模型，產生了什麼欄位？
 
-## Step 4: Create your first user
+## 步驟四：建立第一個使用者
 
-Now that you have set everyting up you can create your first user. Devise creates all the code and routes required to create accounts, log in, log out, etc.
+現在建立第一個使用者的細節都設定完畢了。Devise 幫妳產生了建立帳號、登入、登出所需的程式碼與路徑。
 
-Make sure your rails server is running, open [http://localhost:3000/users/sign_up](http://localhost:3000/users/sign_up) and create your user account.
+確定 Rails 伺服器有跑起來，打開 [http://localhost:3000/users/sign_up](http://localhost:3000/users/sign_up) 來建立妳的使用者帳戶。
 
-## Step 5: Add sign-up and login links
+## 步驟五：加入註冊與登入連結
 
-All we need to do now is to add appropriate links or notice about the user being logged in in the top right corner of the navigation bar.
+現在只需要加入適當的連結，以及導覽列右上角提示使用者已登入的訊息。
 
-In order to do that, edit `app/views/layouts/application.html.erb` add:
+編輯 `app/views/layouts/application.html.erb` 並加入：
+
 {% highlight erb %}
 <p class="navbar-text pull-right">
 <% if user_signed_in? %>
@@ -103,23 +114,22 @@ In order to do that, edit `app/views/layouts/application.html.erb` add:
   <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
 <% end %>
 {% endhighlight %}
-right after
+
+加在這段的後面
+
 {% highlight erb %}
 <ul class="nav">
   <li class="active"><a href="/ideas">Ideas</a></li>
 </ul>
 {% endhighlight %}
 
+打開妳的瀏覽器，試著登入登出看看。
 
-Open your browser and try logging in and out from.
+**教練：** 講解 `user_signed_in?` 以及 `current_user` 這兩個幫助方法 (helper)。 為什麼他們很有用？
 
-**Coach:** Talk about the `user_signed_in?` and `current_user` helpers. Why are they useful?
+## 下一步？
 
-## What next?
-
-* Add extra fields to the User model
-* Add relationships between users and ideas
-* Restrict users to only be able to edit their own ideas
-* Expand to use roles or permissions (use one of the popular authorization gem like CanCan)
-
-
+* 加入更多欄位到 User 模型
+* 加入 Idea 與 User 模型之間的關係
+* 限制使用者只能編輯自己的 idea。
+* 使用角色或權限來管理（用一個像是 CanCan 這樣流行的授權 gem）

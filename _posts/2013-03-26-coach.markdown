@@ -4,7 +4,7 @@ title: 教練指南
 permalink: coach
 ---
 
-# Being a Rails Girls coach
+# 當一個 Rails Girls 教練
 
 *All your basic questions answered in one place*
 

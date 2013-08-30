@@ -4,19 +4,24 @@ title: Rails Girls 與 Engine Yard
 permalink: engineyard
 ---
 
-# Put Your App Online With Engine Yard
+# 讓 App 在 Engine Yard 上線
 
 *Created by Mary Jenn, [@mfjenn](https://twitter.com/mfjenn)*
 
-#### Ensure You're Using PostGres for Your Database
+*Translated by JuanitoFatas, [@JuanitoFatas](https://twitter.com/juanitofatas)*
 
-You'll need to get your database to work on Engine Yard, which uses a different database than the Rails default. Please change the following in the Gemfile:
+#### 確定妳的資料庫是 PostgreSQL。
+
+
+
+Engine Yard 使用不同於 Rails 預設的資料庫。要讓資料庫在 Engine Yard 跑起來，請修改 Gemfile 下面的內容：
+
 
 
 		gem 'sqlite3'
 
 
-to
+改為
 
 		group :development do
 			gem 'sqlite3'
@@ -29,9 +34,9 @@ to
 
 
 
-Run `bundle install --without production` to setup your dependencies.
+執行 `bundle install --without production` 來安裝相依軟體。
 
-#### Version Control Systems
+#### 版本管理系統
 
 You need to add your app to your Git repository. You can do this by running the following in the terminal:
 
