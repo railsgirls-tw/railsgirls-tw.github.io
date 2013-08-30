@@ -4,45 +4,45 @@ title: 開發 Bundler
 permalink: bundlerfordevelopment
 ---
 
-# How to Set Up Bundler for Development
+# 如何設定環境來開發 Bundler
 
 1. Fork Bundler
 
-    Go to the Bundler Github [https://github.com/bundler/bundler](https://github.com/bundler/bundler)
+    造訪 Bundler 的 Github 主頁 [https://github.com/bundler/bundler](https://github.com/bundler/bundler)
 
-    Press the fork button.
+    按下 fork 按鈕。
 
-    Fork Bundler so you can create pull requests with your changes
+    Fork Bundler ，才能將妳的修改發 pull requests 回去。
 
 <p>
 <img src="../images/fork1.jpg" />
 <br />
 </p>
 
-2. Download a copy of your fork of Bundler
+2. 下載一份妳 fork 的 Bundler
 
-    `$ git clone https://github.com/user_name/bundler.git`
+    `$ git clone https://github.com/your_user_name/bundler.git`
 
 
-3. Change into the Bundler directory
+3. 切換至 Bundler 目錄
 
     `$ cd bundler`
 
-4. Configure the remote
+4. 設定一下原項目的網址
 
     `$ git remote add upstream https://github.com/bundler/bundler.git`
 
-    This connects your local repo to the upstream repo at Github.
+    這將妳本機的 repo 與上游 repo 連結起來。
 
 
-5. Install Bundler development dependencies
+5. 安裝 Bundler 開發所依賴的軟體
 
     `$ rake spec:deps`
 
-    What is rake? [http://rake.rubyforge.org/](http://rake.rubyforge.org/)
+    rake 是什麼？ [http://rake.rubyforge.org/](http://rake.rubyforge.org/)
 
-6. Run the Bundler test suite
+6. 執行 Bundler 的測試套裝
 
     `$ rake spec`
 
-    This could take about 15 minutes.
+    大約要 15 分鐘。
