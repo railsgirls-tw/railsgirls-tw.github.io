@@ -278,12 +278,12 @@ i.icon-small-browser {
 
 /* Mozilla based browsers */
 ::-moz-selection {
-  background-color: #e54a4f;
+  background-color: #ff0084;
   color: #fff;
 }
 
 /* Works in Safari */
 ::selection {
-  background-color: #e54a4f;
+  background-color: #ff0084;
   color: #fff;
 }
