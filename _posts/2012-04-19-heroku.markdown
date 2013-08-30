@@ -150,9 +150,7 @@ Total 134 (delta 26), reused 0 (delta 0)
 
 ##### Ephemeral Storage 的解決辦法
 
-當然妳在跑一個實際應用的時候，這不是很有用。但事情總是有解決辦法，下面是許多知名網站的解決辦法。
-
-Obviously this doesn't seem to be useful if you were running a real life application, but there are ways to work around this which is commonly used by a lot of popular websites.
+當然妳在跑實際應用的時候，這不是很有用。但事情總是有解決辦法，下面是許多知名網站的解決辦法。
 
 最常見的方法是用像是外部的 asset 代管，像是 Amazon S3 (Simple Storage Service)，或是 Rackspace CloudFiles。這些服務（便宜，每 GB $0.10）提供雲儲存服務，讓可以有持久化儲存（不會消失）。
 
