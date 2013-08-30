@@ -59,35 +59,37 @@ end
 
 1. 為妳的帳號選個名字。建議選個與妳相關的，選擇開發者或機構（如果你會有協作者的話）。按下 "Start Trial" 按鈕。
 
-2. Feel free to explore what is in the drop downs, but let's go with the defaults for now, since they are in line with a basic Rails app.
+2. 儘管看看下拉式選單有什麼功能，但現在用預設值就好。因為這是個基本的 Rails app 而已。
 
-3. 	In the box labeled "Git Repository URI", paste the URI from your Github repo. Be sure to use the URI from the SSH version of your application. HINT: The format should be the same as the placeholder text on your Engine Yard application page (or like this: "git@github.com:mfjenn/blogotron.git")
+3. 在標有 "Git Repository URI" 的框框，貼上妳的 GitHub repo 的 URI。格式應該會像是這樣（"git@github.com:mfjenn/blogotron.git"）
 
+### 準備妳的佈署金鑰
 
-### 加入妳的佈署金鑰
+妳現在應該會在一個頁面寫 "Allow Engine Yard access to private repository"。
 
-You should now be on a page that says "Allow Engine Yard access to private repository".
+1. 複製框裡的那段文字並前往 [GitHub settings 頁面](https://github.com/settings/profile)。
 
-1.	Copy the block of text in the box and go to your GitHub settings page.
-2.	Go to the SSH page
-3.	Click on the button that says "add a key"
-4.	Paste the block of text from your Engine Yard page here. Save it
-5.	Go back to your Engine Yard Page and Click the button that says, "My deploy key is in place".
+2. 到 SSH Keys 頁面。
 
-**教練：** Talk about the difference between private and public repos and when to use either.
+3. 點 "add SSH key" 的按鈕。
+
+4. 貼上妳從 Engine Yard 頁面複製的一段文字，存檔。
+
+5. 回到 Engine Yard 頁面，並按下 "My deploy key is in place" 的按鈕。
+
+**教練：** 講解私有與公有 repo 的差別，什麼時候要用私有？什麼時候要用公有。
 
 ### 建立與設定環境
 
-Once you click the "My deploy key is in place" button, you will be taken to a page that says, "Create New Environment for (Your Account Name) App". It is here where we will configure your application. Feel free to explore all the options in the drop downs, but let's use the defaults for now. You do not need to set a domain name.
-*	Click the button that says, "Create Environment".
+一旦妳按了 "My deploy key is in place" 按鈕，會被帶到一個頁面，上面寫 "Create New Environment for (Your Account Name) App"。儘管看看下拉式選單有什麼功能，但現在用預設值就好。妳不用設定域名沒關係。
+
+* 按 "Create Environment" 按鈕。
 
 #### 環境設定
 
-On this page, let's select the staging configuration.
-在這頁，可以選擇 staging 的設定
+在這頁，我們來選擇 staging 的設定。
 
-
-*	Click "Boot This Configuration". You will go to a new page where you see several status bars moving. Our Platform is provisioning your instances. We need to wait till these turn to green dots. This usually takes about 10 minutes, so does anyone need to take a break? It's a good time to go grab some water or a coffee.
+*	按 "Boot This Configuration"。妳會來到一個新的頁面，會看到數個狀態條正在跑。Engine Yard 正在配置妳的 app。得稍等一會，直到綠色的點出現。通常是 10 分鐘，休息一下吧？去拿杯水或是咖啡。
 
 **教練：** 講解 Staging 與 Production 的差別，為什麼有重複的環境很重要？講解 master & slave 是什麼。Engine Yard 的 Failover 的工作原理？為什麼這個很重要？
 
