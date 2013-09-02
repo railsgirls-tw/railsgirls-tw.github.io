@@ -26,7 +26,7 @@ permalink: app
 
 <h3><i class="icon-browser">&nbsp;</i></h3>
 ### 網路瀏覽器
-(火狐, Safari, Chrome) 用來檢視妳的應用程式。
+(火狐, Safari, Chrome) 用來檢視妳的 APP。
 
 </div>
 
@@ -34,13 +34,13 @@ permalink: app
 
 針對妳的作業系統選對的步驟很重要 —— 在 Windows 執行的命令跟 Mac 與 Linux 上的不太一樣。如果妳遇到任何問題，命令最下方可切換作業系統。
 
-## *1.* 建立應用
+## *1.* 建立 APP
 
-我們即將建立一個嶄新的 Rails 應用，叫做 *railsgirls*。
+我們即將建立一個嶄新的 Rails APP，叫做 *railsgirls*。
 
 首先，打開終端：
 
-* Mac OS X: 打開 Spotlight，輸入 *Terminal* 並點選 *Terminal* 應用程式.
+* Mac OS X: 打開 Spotlight，輸入 *Terminal* 並點選 *Terminal* 。
 * Windows: 按開始，找到**命令提示字元**，接著按 *Command Prompt with Ruby on Rails*。
 * Linux (Ubuntu): 在 dash 搜索 *Terminal* 並點選 *Terminal*。
 
@@ -61,7 +61,7 @@ cd projects
 {% endhighlight %}
 
     <div>
-妳可以再次使用 <code>ls</code> 命令來檢查妳現在正在一個空目錄裡。現在妳可以用下面這個命令，來建立一個新的應用，叫做 <code>railsgirls</code>：
+妳可以再次使用 <code>ls</code> 命令來檢查妳現在正在一個空目錄裡。現在妳可以用下面這個命令，來建立一個新的 APP，叫做 <code>railsgirls</code>：
     </div>
 
 {% highlight sh %}
@@ -69,7 +69,7 @@ rails new railsgirls
 {% endhighlight %}
 
     <div>
-這會在 <code>railsgirls</code> 目錄下建立出一個新的應用，所以我們可以再次使用 <code>cd</code> 命令切換到 Rails 應用目錄：
+這會在 <code>railsgirls</code> 目錄下建立出一個新的 APP，所以我們可以再次使用 <code>cd</code> 命令切換到 Rails APP 目錄：
     </div>
 
 {% highlight sh %}
@@ -99,7 +99,7 @@ cd projects
 {% endhighlight %}
 
     <div>
-妳可以再次使用 <code>ls</code> 命令來檢查妳現在正在一個空目錄裡。現在妳可以用下面這個命令，來建立一個新的應用，叫做 <code>railsgirls</code>：
+妳可以再次使用 <code>ls</code> 命令來檢查妳現在正在一個空目錄裡。現在妳可以用下面這個命令，來建立一個新的 APP，叫做 <code>railsgirls</code>：
     </div>
 
 {% highlight sh %}
@@ -107,7 +107,7 @@ rails new railsgirls
 {% endhighlight %}
 
     <div>
-這會在 <code>railsgirls</code> 目錄下建立出一個新的應用，所以我們可以再次使用 <code>cd</code> 命令切換到 Rails 應用目錄：
+這會在 <code>railsgirls</code> 目錄下建立出一個新的 APP，所以我們可以再次使用 <code>cd</code> 命令切換到 Rails APP 目錄：
     </div>
 
 {% highlight sh %}
@@ -126,7 +126,7 @@ ruby bin\rails server
 
 **Windows 使用者注意：** 可能需要將 `bin\rails` 換成 `script\rails`，這取決於妳安裝的 Rails 版本。
 
-在瀏覽器打開 [http://localhost:3000](http://localhost:3000)。應該會看到 "Welcome aboard" 的頁面，代表妳的新應用產生成功了！
+在瀏覽器打開 [http://localhost:3000](http://localhost:3000)。應該會看到 "Welcome aboard" 的頁面，代表妳的 APP 產生成功了！
 
 注意！在這個視窗裡看不到命令提示符號，是因為妳在正 Rails 伺服器裡。命令提示符號看起來像是：
 
@@ -174,7 +174,7 @@ ruby bin\rails server
   </div>
 </div>
 
-到瀏覽器打開 [http://localhost:3000/ideas](http://localhost:3000/ideas)。四處把玩看看，妳僅用幾行命令就產生出來的應用程序。
+到瀏覽器打開 [http://localhost:3000/ideas](http://localhost:3000/ideas)。四處把玩看看，妳僅用幾行命令就產生出來的 APP。
 
 玩了一陣子之後，按 `CTRL-C` 來再次離開伺服器。
 
@@ -183,7 +183,7 @@ ruby bin\rails server
 
 **教練：** 講講 Rails 與 HTML 之間的關係。視圖 (Views)裡面哪個部分是 HTML？哪個部分是嵌入 Ruby (ERB)？MVC 是什麼？與它們有什麼關係？（模型與控制器負責產生 HTML 視圖）
 
-妳的應用現在看起來不太漂亮。讓我們來給她打扮打扮。我們會使用 Twitter Bootstrap 專案來非常簡單的幫應用變漂亮。
+妳的 APP 現在看起來不太漂亮。讓我們來給她打扮打扮。我們會使用 Twitter Bootstrap 專案來非常簡單的幫 APP 變漂亮。
 
 在編輯器裡打開 `app/views/layouts/application.html.erb`，找到這行，在上面
 
@@ -283,7 +283,7 @@ rails generate uploader Picture
 
 在終端裡按下 `CTRL-C` 來離開伺服器。一旦伺服器停止，妳可以按上，來獲得上個輸入的命令，接著按 enter 來重新啟動伺服器。
 
-為什麼需要重新啟動伺服器呢？因為應用程序需要載入剛剛加入的函式庫。
+為什麼需要重新啟動伺服器呢？因為 APP 需要載入剛剛加入的函式庫。
 
 打開 `app/models/idea.rb` 並在這行下面
 
@@ -355,7 +355,7 @@ root :to => redirect('/ideas')
 
 * Guide 0: [Handy cheatsheet for Ruby, Rails, console etc.](https://github.com/PragTob/rails-beginner-cheatsheet)
 * Guide 1: [加入評論功能 by Janika Liiv](/commenting)
-* Guide 2: [把應用放到 Heroku by Terence Lee](/heroku)
+* Guide 2: [把 APP 放到 Heroku by Terence Lee](/heroku)
 * Guide 3: [Build a map of workshop participants by Rails Girls Berlin](http://railsgirlsberlin.de/apptutorial/)
 * Guide 4: [給上傳的圖片建立縮圖 by Miha Filej](/thumbnails)
 * Guide 5: [使用 HTML 與 CSS 添加設計 by Alex Liao](/design)
