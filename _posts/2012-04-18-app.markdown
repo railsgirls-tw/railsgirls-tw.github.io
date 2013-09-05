@@ -353,11 +353,13 @@ root :to => redirect('/ideas')
 
 ## 其它指南
 
-* Guide 0: [Handy cheatsheet for Ruby, Rails, console etc.](https://github.com/PragTob/rails-beginner-cheatsheet)
+<!-- * Guide 0: [Handy cheatsheet for Ruby, Rails, console etc.](https://github.com/PragTob/rails-beginner-cheatsheet) -->
 * Guide 1: [加入評論功能 by Janika Liiv](/commenting)
 * Guide 2: [把 APP 放到 Heroku by Terence Lee](/heroku)
-* Guide 3: [Build a map of workshop participants by Rails Girls Berlin](http://railsgirlsberlin.de/apptutorial/)
-* Guide 4: [給上傳的圖片建立縮圖 by Miha Filej](/thumbnails)
-* Guide 5: [使用 HTML 與 CSS 添加設計 by Alex Liao](/design)
-* Guide 6: [用 Devise 加入驗證功能 by Piotr Steininger](/devise/)
-* Guide 7: [Go through additional explanations for the App by Lucy Bain](https://github.com/lbain/railsgirls)
+<!-- * Guide 3: [Build a map of workshop participants by Rails Girls Berlin](http://railsgirlsberlin.de/apptutorial/)
+ -->
+* Guide 3: [給上傳的圖片建立縮圖 by Miha Filej](/thumbnails)
+* Guide 4: [使用 HTML 與 CSS 添加設計 by Alex Liao](/design)
+* Guide 5: [用 Devise 加入驗證功能 by Piotr Steininger](/devise/)
+<!-- * Guide 7: [Go through additional explanations for the App by Lucy Bain](https://github.com/lbain/railsgirls)
+ -->
