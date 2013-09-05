@@ -5,7 +5,7 @@ permalink: install
 ---
 
 # 給 Rails Girls 的安裝食譜
-<span class="muted">烘焙時間：做 5 分鐘 / 聽 15-30 分鐘</span>
+<span class="muted">烘焙時間：聽 5 分鐘 / 做 15-30 分鐘</span>
 
 要用 Ruby on Rails 打造應用，需要安裝某些軟體並給電腦設置開發環境。
 
