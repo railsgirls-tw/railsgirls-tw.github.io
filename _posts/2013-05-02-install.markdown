@@ -7,9 +7,9 @@ permalink: install
 # 給 Rails Girls 的安裝食譜
 <span class="muted">烘焙時間：聽 5 分鐘 / 做 15-30 分鐘</span>
 
-要用 Ruby on Rails 打造應用，需要安裝某些軟體並給電腦設置開發環境。
+要用 Ruby on Rails 打造 app，需要安裝某些軟體並設定電腦的開發環境。
 
-從你的作業系統選擇安裝教學。要是碰到任何問題，別慌張！歡迎在活動中跟我們說，我們可以一起解決。
+選擇適合妳的作業系統的安裝教學。要是碰到任何問題，別慌張！歡迎在活動中跟教練說，讓我們一起解決。
 
 * [OS X 安裝教學](#setup_for_os_x)
 * [Windows 安裝教學](#setup_for_windows)
@@ -25,7 +25,7 @@ permalink: install
 
 ![Apple 選單](/images/1.png "Apple menu")
 
-**第二步** 在這個視窗妳可以找到作業系統的版本。如果妳的版本是 10.6、10.7 或 10.8，則本指南就是為妳而寫的。如果是其它版本，我們可在活動中幫你安裝。
+**第二步** 在這個視窗妳可以找到作業系統的版本。如果妳的版本是 10.6、10.7 或 10.8，則本指南就是為妳而寫的。如果是其它版本，我們可在活動中幫妳安裝。
 
 ![關於這台 Mac 對話框](/images/2.png "About this Mac dialog")
 
@@ -34,7 +34,7 @@ permalink: install
 * [給 10.7 與 10.8 的 Rails 安裝工具](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.7.app.tgz) <span class="muted">(325MB)</span>
 * [給 10.6 的 Rails 安裝工具](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.6.app.tgz) <span class="muted">(224MB)</span>
 
-按兩下下載的檔案，它會解壓縮到目前的目錄。按兩下剛解開的 'RailsInstaller-1.0.3-osx-10.7.app' 或 'RailsInstaller-1.0.3-osx-10.6.app' 並照著步驟安裝。安裝完畢會開啟有著 'Rails Installer OS X' 標題的讀我檔案。請忽略這個檔案所要求的步驟。
+按兩下剛剛下載的檔案，會解壓縮到目前的目錄。按兩下剛解開的 'RailsInstaller-1.0.3-osx-10.7.app' 或 'RailsInstaller-1.0.3-osx-10.6.app' 並按照步驟安裝。安裝完畢會開啟有著 'Rails Installer OS X' 標題的讀我檔案。請忽略這個檔案所要求的步驟。
 
 如果 Rails 版本不是最新的（目前是 4.0.0），妳可以在終端用下面的命令來更新 Rails。
 
@@ -60,9 +60,9 @@ gem update rails --no-ri --no-rdoc
 gem update rails --no-ri --no-rdoc
 {% endhighlight %}
 
-如果你想將應用放到 Heroku，需要安裝 Git 與 SSH-keys。
+如果妳想[將 app 放到 Heroku](/heroku)，需要安裝 Git 與 SSH-keys。
 
-**最後一步** 妳會需要文字編輯器來編輯程式碼檔案。我們推薦使用 Sublime Text 編輯器。
+**最後一步** 妳會需要文字編輯器來編輯程式碼。我們推薦使用 Sublime Text 編輯器。
 
 * [下載並安裝 Sublime Text](http://www.sublimetext.com/2)
 
@@ -72,7 +72,7 @@ gem update rails --no-ri --no-rdoc
 
 ## Setup for Linux
 
-要安裝 Ruby on Rails 開發環境，只需要根據妳的 Linux 發行版，複製下列命令到終端並按 Enter。享受文字在妳的終端飛舞吧！會花點時間。在開始前，我們鼓勵妳去拿杯提神飲料。
+要安裝 Ruby on Rails 開發環境，只需要根據妳的 Linux 發行版，複製下列命令到終端並按 Enter。享受文字在妳的終端飛舞吧！安裝會花點時間。開始之前，去拿杯飲料吧。
 
 **Ubuntu：**
 
@@ -86,7 +86,7 @@ bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/r
 bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-fedora.sh)
 {% endhighlight %}
 
-**最後一步** 妳會需要文字編輯器來編輯程式碼檔案。我們推薦使用 Sublime Text 編輯器。
+**最後一步** 妳會需要文字編輯器來編輯程式碼。我們推薦使用 Sublime Text 編輯器。
 
 * [下載並安裝 Sublime Text](http://www.sublimetext.com/2)
 
