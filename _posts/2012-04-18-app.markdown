@@ -91,7 +91,7 @@ mkdir projects
 {% endhighlight %}
 
     <div>
-可以用 <code>dir</code> 命令來檢查叫做 <code>projects</code> 的目錄有沒有產生。應該會在輸出裡看到 <code>projects</code> 目錄。現在你想從當下目錄進入 <code>projects</code> 目錄，可以執行：
+可以用 <code>dir</code> 命令來檢查叫做 <code>projects</code> 的目錄有沒有產生。應該會在輸出裡看到 <code>projects</code> 目錄。現在你想從目前的目錄進入 <code>projects</code> 目錄，可以執行：
     </div>
 
 {% highlight sh %}
@@ -128,12 +128,12 @@ ruby bin\rails server
 
 在瀏覽器打開 [http://localhost:3000](http://localhost:3000)。應該會看到 "Welcome aboard" 的頁面，代表妳的 APP 產生成功了！
 
-注意！在這個視窗裡看不到命令提示符號，是因為妳在正 Rails 伺服器裡。命令提示符號看起來像是：
+注意！在這個視窗裡看不到命令提示符號，是因為妳正在 Rails 伺服器裡。命令提示符號看起來像是：
 
 <div class="os-specific">
   <div class="nix">
 {% highlight sh %}
-$
+＄
 {% endhighlight %}
   </div>
   <div class="win">
@@ -152,9 +152,9 @@ $
 
 ## *2.* 建立 Idea 鷹架
 
-我們即將使用 Rails 內建的鷹架功能來產生一個起點。讓我們可以：列出、新增、移除、編輯、檢視想法。
+我們即將使用 Rails 內建的鷹架功能來起步。讓我們可以： __列出、新增、移除、編輯、檢視想法。__
 
-**教練：** Rails 鷹架是什麼？（解釋鷹架命令、模型名稱以及相關的資料庫表格、命名慣例、屬性以及型別...等等。）什麼是資料庫遷移 (Migrations)？為什麼需要遷移？
+**教練：** Rails 鷹架是什麼？（解釋鷹架命令、Model 名稱以及相關的資料庫表格、命名慣例、屬性以及型別...等等。）什麼是資料庫遷移（Migrations）？為什麼需要遷移？
 
 <div class="os-specific">
   <div class="nix">
@@ -181,17 +181,17 @@ ruby bin\rails server
 
 ## *3.* 設計
 
-**教練：** 講講 Rails 與 HTML 之間的關係。視圖 (Views)裡面哪個部分是 HTML？哪個部分是嵌入 Ruby (ERB)？MVC 是什麼？與它們有什麼關係？（模型與控制器負責產生 HTML 視圖）
+**教練：** 講講 Rails 與 HTML 之間的關係。Views 裡面哪個部分是 HTML？哪個部分是嵌入 Ruby (ERB)？MVC 是什麼？與它們有什麼關係？（模型與控制器負責產生 HTML Views）
 
 妳的 APP 現在看起來不太漂亮。讓我們來給她打扮打扮。我們會使用 Twitter Bootstrap 專案來非常簡單的幫 APP 變漂亮。
 
-在編輯器裡打開 `app/views/layouts/application.html.erb`，找到這行，在上面
+在編輯器裡打開 `app/views/layouts/application.html.erb`，找到這行
 
 {% highlight erb %}
 <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
 {% endhighlight %}
 
-加入
+在這行上面加入
 
 {% highlight erb %}
 <link rel="stylesheet" href="http://railsgirls.com/assets/bootstrap.css">
@@ -294,7 +294,7 @@ class Idea < ActiveRecord::Base
 加入
 
 {% highlight ruby %}
-mount_uploader :picture, PictureUploader
+  mount_uploader :picture, PictureUploader
 {% endhighlight %}
 
 打開 `app/views/ideas/_form.html.erb` 並將這行
