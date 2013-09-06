@@ -32,7 +32,7 @@ permalink: install
 **Step 3.** 根據作業系統版本下載對應的 Rails 安裝工具：
 
 * [給 10.7 與 10.8 的 Rails 安裝工具](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.7.app.tgz) <span class="muted">(325MB)</span>
-* [給 10.7 與 10.8 的 Rails 安裝工具](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.6.app.tgz) <span class="muted">(224MB)</span>
+* [給 10.6 的 Rails 安裝工具](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.6.app.tgz) <span class="muted">(224MB)</span>
 
 按兩下下載的檔案，它會解壓縮到目前的目錄。按兩下剛解開的 'RailsInstaller-1.0.3-osx-10.7.app' 或 'RailsInstaller-1.0.3-osx-10.6.app' 並照著步驟安裝。安裝完畢會開啟有著 'Rails Installer OS X' 標題的讀我檔案。請忽略這個檔案所要求的步驟。
 
