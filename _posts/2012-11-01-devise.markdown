@@ -49,7 +49,7 @@ attr_accessible :email, :password, :password_confirmation
 確定妳的環境檔案已定義預設網址，打開 `config/environments/development.rb` 並加入：
 
 {% highlight ruby %}
-   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 {% endhighlight %}
 
 這行放在 `end` 關鍵字之前哦
@@ -68,13 +68,13 @@ attr_accessible :email, :password, :password_confirmation
 加在這行上面
 
 {% highlight ruby %}
-   <%= yield %>
+<%= yield %>
 {% endhighlight %}
 
 最後，如果妳預計要[佈署到 Heroku](/heroku)，打開 `config/application.rb` 並加入這行：
 
 {% highlight ruby %}
-  config.assets.initialize_on_precompile = false
+config.assets.initialize_on_precompile = false
 {% endhighlight %}
 
 從最下面數來第三行，加在兩個 `end` 關鍵字的上面。
@@ -84,8 +84,8 @@ attr_accessible :email, :password, :password_confirmation
 使用 devise 的產生器來建立 User 模型：
 
 {% highlight sh %}
-   rails g devise user
-   rake db:migrate
+rails g devise user
+rake db:migrate
 {% endhighlight %}
 
 **教練：** 解釋產生了什麼模型，產生了什麼欄位？
