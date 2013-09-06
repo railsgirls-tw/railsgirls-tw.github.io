@@ -28,10 +28,6 @@ sudo apt-get install gedit -y
 echo -e "\n- - - - - -\n"
 echo -e "Now we are going to print some information to check that everything is done:\n"
 
-# brew in ubuntu?
-# echo -n "Should be brew 0.8 or higher:       brew "
-# brew -v
-
 echo -n "Should be sqlite 3.7.3 or higher: sqlite "
 sqlite3 --version
 echo -n "Should be rvm 1.22.3 or higher:          "
@@ -42,8 +38,6 @@ echo -n "Should be Rails 4.0.0 or higher:         "
 rails -v
 echo -e "\n- - - - - -\n"
 
-echo "If the versions match, everything is installed correctly. If the versions
-don't match or errors are shown, something went wrong with the automated process
-and we will help you do the installation the manual way at the event.
+echo "如果版本都正確的話，全部都安裝成功了！如果有些版本不對的話，找教練一起來解決吧。
 
-恭喜妳！"
+恭喜妳!"

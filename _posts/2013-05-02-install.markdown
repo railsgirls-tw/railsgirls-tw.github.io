@@ -77,13 +77,13 @@ gem update rails --no-ri --no-rdoc
 **Ubuntu：**
 
 {% highlight sh %}
-bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+bash < <(curl -s https://raw.github.com/railsgirls-tw/railsgirls-tw.github.io/master/tool/rails-install-ubuntu.sh)
 {% endhighlight %}
 
 **Fedora：**
 
 {% highlight sh %}
-bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-fedora.sh)
+bash < <(curl -s https://raw.github.com/railsgirls-tw/railsgirls-tw.github.io/master/tool/rails-install-fedora.sh)
 {% endhighlight %}
 
 **最後一步** 妳會需要文字編輯器來編輯程式碼。我們推薦使用 Sublime Text 編輯器。
