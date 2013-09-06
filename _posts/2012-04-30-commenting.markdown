@@ -34,7 +34,7 @@ rails g scaffold comment user_name:string body:text idea_id:integer
 
 ## Step 3: 加入 foreign key 連結
 
-找到這個檔案 `db/migrate/YYYYMMDDXXXXXX_create_comments.rb` ，在這行
+找到這個檔案 `db/migrate/YYYYMMDDXXXXXX_create_comments.rb` ，在這行之後
 
 {% highlight ruby %}
 t.timestamps
@@ -61,7 +61,7 @@ rails s
 
 ## Step 4: 加入模型關係
 
-必須確保 Rails 知道物件之間的關連（ideas 與 comments）。
+必須讓 Rails 知道 comments 與 idea 之間的關係（ideas 與 comments）。
 
 一個 idea 可以有很多 comments，但我們得告訴 idea model 這件事才行。
 
