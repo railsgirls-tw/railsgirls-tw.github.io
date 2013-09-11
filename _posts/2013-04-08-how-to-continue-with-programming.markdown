@@ -8,129 +8,107 @@ permalink: how-to-continue-with-programming
 
 *Created and edited for general use by Daniel Puglisi, [@danielpuglisi](http://twitter.com/danielpuglisi).*
 
-*This guide was originally written for the [Rails Girls Basel](http://railsgirls.com/basel) event
-and was published on
-[Daniel Puglisi's personal blog](http://danielpuglisi.com/articles/2013/04/rails-girls-after-the-event-how-to-continue-with-programming).*
+*Translated by Taian Su, [@taiansu](http://twitter.com/taiansu).*
 
-Unfortunately (!) the event is already over and I've written this
-blog post to help you find the best way to keep going with learning on
-how to program!
+*這份教學原本是為了 [Rails Girls Basel](http://railsgirls.com/basel) 活動寫的, 並發表在 
+[Daniel Puglisi 的個人部落格](http://danielpuglisi.com/articles/2013/04/rails-girls-after-the-event-how-to-continue-with-programming) 上.*
 
-There are 4 steps which I've come up with and I encourage you to
-really take them to your heart and do them.
+很可惜(!)活動就這樣結束了, 我寫下這篇文章的目的, 正是要幫你找出持續學習程式最好的方式!
 
-Originally this article was planned as a talk for the end of the Rails Girls Basel event but the girls
-were so focused on coding that we just didn't wanted to interrupt them. :)
+底下會有四個要點，我建議你把它們放在心上，並時時去做。
 
-So here it goes:
+原本這篇本章是要在 Rails Girls Basel 發表的講題, 但是女生們寫程式寫的非常專心, 我們實在不忍心打擾她們。
+
+那要開始囉:
 
 ## 1. 持續寫程式吧！
 
-Mastering a craft requires constant repeating and perseverance.
-This also applies to programming. I encourage you to repeat the Rails
-Girls tutorial which we did at the event and try to play around with
-it some more.
+精通一項技藝須要持續的重覆練習與恆心. 寫程式也是如此, 我鼓勵你多做幾次 Rails Girls 活動中的教材, 並試著多加一些好玩的功能.
 
-After that here are some free and paid resources which will help you
-to take things to the next level:
+在那之後, 可以試試底下列出的免費或付費課程, 它們能提高你的寫程式的觀念跟技巧
 
 ### 課程
 
-* [Rails for Zombies](http://railsforzombies.org/) - A Rails Screencast which was created by [Codeschool](http://codeschool.com). Its free and Codeschool provides also a series of paid [Ruby and Rails](http://www.codeschool.com/paths/ruby#starting-rails) courses which are awesome. You should really try them!
+* [Rails for Zombies](http://railsforzombies.org/) - A Rails Screencast which was created by [Codeschool](http://codeschool.com) 製作的 Rails 教學影片. 這一個是免費的. Codeschool 也提供了一系列的很棒的付費 [Ruby and Rails](http://www.codeschool.com/paths/ruby#starting-rails) 課程. 你真的應該試試!
 
-* [Codecademy](http://www.codecademy.com/) - The world isn't just created with rubiez. There are also plenty of other languages like HTML/CSS, JavaScript, Python and so on. Try them out.
+* [Codecademy](http://www.codecademy.com/) - 這世界並不是光用 Ruby 來打造的. 還有許多的語言像是 HTML/CSS, JavaScript, Python 等等. 你可以在這裡試試看.
 
 ### 書籍
 
-* [Rails Tutorial](http://ruby.railstutorial.org/) - A awesome book which has a free HTML version and a paid print version. The book provides you with a lot of great material which we couldn't cover at the Rails Girls workshop.
+* [Rails Tutorial](http://ruby.railstutorial.org/) - HTML版免費, 紙本須要付費的好書. 這本書提供了許多我們沒辦法在 Rails Girls 工作坊講到的部份.
+* [Ruby on Rails 實戰聖經](http://ihower.tw/rails3/index.html) - ihower 寫的 Rails 詳細教學
 
 ### 影片教學
 
-* [Railscasts](http://railscasts.com/) - Short and simple screencasts about Rails by Ryan Bates.
-  **Note**: *Ryan is giving away 3 month RailsCasts pro subscription coupons to all Rails Girls attendees for free.
-  If you haven't received one at the Rails Girls event you attended, ask your event organizer to [send an email to Ed Drain](mailto:geekprogrammer.ed@gmail.com). He will send the coupons to your event organizer.*
-* [Confreaks](http://www.confreaks.com/) - Talks from conferences all over the world.
-* [Peepcode](https://peepcode.com/) - Paid Screencasts by Geoffrey Grosenbach.
+* [Railscasts](http://railscasts.com/) - Ryan Bates 製作的簡單短篇 Rails 影片教學.
+* [Confreaks](http://www.confreaks.com/) - 世界各地研討會的演講影片.
+* [Peepcode](https://peepcode.com/) - Geoffrey Grosenbach 製作的付費影片教學.
 * [Richard Schneems Screencast](http://www.youtube.com/user/schneems/videos)
 
 ### 更更更更多！
 
-* [Thoughtbot Trail-Map](https://github.com/thoughtbot/trail-map) - Guides to different topics.
-
-> If you have any other good resources, [hit me](mailto:daniel@codegestalt.com) so I can put them into the list.
+* [Thoughtbot Trail-Map](https://github.com/thoughtbot/trail-map) - 各種主題的教學.
 
 ## 2. 做些實際的東西
 
-Build something real means you should try to create something which is actually needed in the end.
-The hardest part will be to find a real project.
-If you have no idea, try to think of something that really upsets you.
-Do you have to use something in your daily life that pisses you off?
-Write an application for it and try to solve that pain.
-This way you will be more motivated than by just following tutorials.
+做實際的東西意思是你應該試著去打造一個人們真正需要的東西. 而最難的部份在於尋找有用的點子. 
+如果你不知道該做什麼, 試著去想有什麼東西真的讓你很困擾, 有沒有什麼你日常生活中常常覺得很不滿的呢?
+寫個應用程式來解決這個問題吧! 跟光是照著教材操作比起來, 這會讓你更有動力.
 
-And don't forget to show your application to your friends and the world.
-Ask for feedback and keep on learning.
+不要忘記把你的程式秀給你的朋友還有整個世界, 詢問他們的意見並持續學習.
 
-If you still have trouble finding something you can work on I have an idea for you:
-Build a Rails Girls website for your country or city. In Switzerland we encourage the girls to work
-on our swiss wide Rails Girls website: [railsgirls.ch](http://railsgirls.ch/).
+如果你怎麼努力想, 依然不知道要做什麼的話, 這裡提供一個點子給你:
+做一個給你的國家或是城市用的 Rails Girls 網站吧. 在瑞士他們鼓勵女生們參與製作瑞士的 Rails Girls 網站: [railsgirls.ch](http://railsgirls.ch/).
 
 ## 3. 保持聯絡
 
-Its always easier when you have someone you can ask.
-With this in mind, go out and find someone who you can talk to.
-Now is the best time for it,
-because you just got to know a lot of like minded people which have more or less the same level as you.
-There are a lot of ways to communicate nowadays,
-e.g. host a local meetup group, use Google Talk, create Facebook Groups or write a good ol' letter :)
+總是有個人可以問問題會讓事情容易許多.
+記得這一點, 然後出門找個可以跟你討論的人吧.
+你現在認識了許多有共同目標, 程度也跟你接近的人, 沒有比這更好的時機了.
 
-From my experience, knowing some people who have the same interests as you is one of the most important parts.
-Try to convince people, that programming is fun.
-If you have a brother or a sister, show them what you've learned.
-Or show it to your parents, children or friends.
-Just try to build a circle of people with the same interest in programming and technology.
+保持交流有許多方式,
+例如舉辦當地的聊天聚會, 用Google Talk, 建立一個 Facebook 群組或者就寫寫信吧 :)
 
-Also try to find something like a mentor.
-Programming can be really intimidating sometimes,
-so it can help to know someone which has more experience and can help you with your problems.
-For example: ask someone of the Coaches who attended at the Event.
+根據我的經驗, 找到跟你擁有共同興趣的人是非常重要的事.
+試著去讓其它人了解, 寫程式是很有趣的.
+如果你有兄弟姐妹, 跟你們秀一下你學了什麼.
+或是秀給你的父母, 孩子或是朋友看.
+試著建立一個對程式與技術有興趣的朋友圈圈.
 
-If you don't have the time to host your own meetup group, thats ok.
-There are already a few groups which you can join:
+也記得試著找一個像是導師的人, 有時候程式可能變得真的很畏懼, 所以認識一個比較有經驗, 能幫你解決問題的人可能會很有幫助.
+舉例來說, 你就可以問問那天參加工作坊的教練們.
 
-* [Ruvetia](http://ruvetia.org/) - Ruvetia is a meetup (or drinkup) where we will come together every now and then and just socialize. This meetup is not about content, its about getting to know the people in the community. Every meetup is in a different city so check out the Ruvetia website from time to time where the next meetup will take place.
-* [Railshöck](http://www.meetup.com/rubyonrails-ch/events/80098992/) - A Rails meetup in Zurich
-* [Geneva Ruby Brigade](http://genevarb.com/) - Ruby group based in Geneva
+如果你沒時間自己舉辦聚會的話也沒關係,
+你可以加入別人發起的程式聚會:
 
-> This list is Switzerland related and only used as an example, ask the organizers and coaches of your event for a list of local groups and meetups.
+* [Ruby Tuesday](https://www.facebook.com/ruby.taiwan) - 在台北不定期舉辦的 Ruby 相關的主題演講及聚會(大約一個月一次)
+* [Rails Tuesday](http://www.meetup.com/taipei-rails-meetup/) - 每週二舉辦的開發者聚會, 遇到 RubyTuesday 時暫停.
 
-One of the girls at the Rails Girls Basel event (thanks [Helena](https://twitter.com/HBobbiRo)!) had the great idea
-that we could put up a list with all the attendees, coaches and organizers of the event.
-We created this list and its on [Github](https://github.com/RailsGirlsSwitzerland/attendees) now, check it out [here](http://railsgirlsswitzerland.github.io/attendees/site/2013_04_basel.html).
-Feel free to fork the repository and adjust it to the needs of your Rails Girls event.
+> 上述的聚會是以台北舉辦的 Ruby 聚會為例, 問問看活動主辦者跟教練在你的城市是否有相關的活動跟細節
 
-Try to setup such a list for your event too, this way its a lot easier to stay in contact with everyone than just
-with the people who sat around the same table as you did.
-If you don't know how, ask someone of the organizers of the event if she or he could do it.
+Rails girls Basel 的其中一個女生(謝謝 [Helena](https://twitter.com/HBobbiRo)!)提供了一個好點子說:
+我們可以把這場活動的學員, 教練跟主辦者做一張通訊錄.
+
+試著自己做一份類似的通訊錄, 這樣你可以跟更多的人保持連絡, 而不僅僅只有工作坊當天跟自己同一桌的朋友.
+如果你不知道該到哪找連絡資訊, 一樣可以去問問活動主辦者跟教練.
 
 ## 4. 玩樂
 
-Last but not least, have fun.
-If you don't enjoy programming it is probably not the right thing for you.
-But thats the same story for every profession or hobby.
-Not only for technology related topics.
-But if you just read this I think you are perfectly made for programming,
-otherwise you wouldn't be here in the first place ;)
+最後很重要的一點就是: 玩的開心.
+如果你沒有享受寫程式的過程, 那這也許不是你的菜.
+不管與科技相關與否, 所謂的專業跟嗜好大多都是這麼一回事.
+既然你一路用心的讀到這裡, 我想你生來就是寫程式的料.
+不然你點進來沒多久就會關網頁了吧. ;)
 
-So, if you liked the workshop and the event - you're in the right spot.
+所以如果你覺得工作坊的活動很有趣的話, 那恭喜你找到了好的起點.
 
-If you have any further questions, don't hesitate to ask.
-You can do this via [Twitter](https://twitter.com/railsgirls) or email.
-Ask the organizers and coaches of your event for their email addresses and if they would like to help you.
+如果你有更進一步的問題, 儘管發問, 千萬不要客氣.  你也可以用[Twitter](https://twitter.com/railsgirls)或是email.
 
-Thats it, keep on coding and let's build the future!
+跟活動主辦人及教練要email, 問一下她們願不願意幫你.
+
+就是這樣啦, 繼續寫程式, 一起來打造美好的未來吧!
 
 ## 5. 更多資源
 
-- [8 ways to enable workshop attendess to keep learning](http://pragtob.wordpress.com/2013/06/14/8-ways-to-enable-workshop-attendess-to-keep-learning/)
+- [八個讓工作坊學員繼續學習的方式](http://pragtob.wordpress.com/2013/06/14/8-ways-to-enable-workshop-attendees-to-keep-learning/) (英文)
 
