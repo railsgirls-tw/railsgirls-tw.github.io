@@ -6,12 +6,11 @@ permalink: how-to-continue-with-programming
 
 # 活動過後：如何繼續學寫程式
 
-* Created and edited for general use by Daniel Puglisi, [@danielpuglisi](http://twitter.com/danielpuglisi).*
+*Created and edited for general use by Daniel Puglisi, [@danielpuglisi](http://twitter.com/danielpuglisi).*
 
-* Translated by Taian Su, [@taiansu](http://twitter.com/taiansu).*
+*Translated by Taian Su, [@taiansu](http://twitter.com/taiansu).*
 
-* 這份教學原本是為了 [Rails Girls Basel](http://railsgirls.com/basel) 活動寫的, 並發表在 
-[Daniel Puglisi 的個人部落格](http://danielpuglisi.com/articles/2013/04/rails-girls-after-the-event-how-to-continue-with-programming) 上.*
+*這份教學原本是為了 [Rails Girls Basel](http://railsgirls.com/basel) 活動寫的, 並發表在 [Daniel Puglisi 的個人部落格](http://danielpuglisi.com/articles/2013/04/rails-girls-after-the-event-how-to-continue-with-programming) 上.*
 
 <hr />
 
