@@ -30,7 +30,7 @@ permalink: how-to-continue-with-programming
 
 ### 課程
 
-* [Rails for Zombies](http://railsforzombies.org/) - A Rails Screencast which was created by [Codeschool](http://codeschool.com) 製作的 Rails 教學影片. 這一個是免費的. Codeschool 也提供了一系列的很棒的付費 [Ruby and Rails](http://www.codeschool.com/paths/ruby#starting-rails) 課程. 你真的應該試試!
+* [Rails for Zombies](http://railsforzombies.org/) - [Codeschool](http://codeschool.com) 製作的 Rails 教學影片. 這一個是免費的. Codeschool 也提供了一系列的很棒的付費 [Ruby and Rails](http://www.codeschool.com/paths/ruby#starting-rails) 課程. 你真的應該試試!
 
 * [Codecademy](http://www.codecademy.com/) - 這世界並不是光用 Ruby 來打造的. 還有許多的語言像是 HTML/CSS, JavaScript, Python 等等. 你可以在這裡試試看.
 
