@@ -10,11 +10,11 @@ permalink: coach
 
 ### 我需要具備什麼才能當 Rails Girls 的教練？
 
-所以，你聽過 [Rails Girls](http://railsgirls.com/)。而你在思考，怎麼樣才能在工作坊中當教練？太好了！對於幫助初學者進入網路開發的世界感興趣，已經是個很好的先決條件了！你還需要什麼？
+所以你聽過 [Rails Girls](http://railsgirls.com/)。現在你在想說怎麼樣才能在工作坊中當教練？太好了！有興趣想要 幫助初學者進入網路開發的世界，已經是個很好的先決條件了！你還需要什麼？
 
 - 耐心、願意幫助人以及友善的態度 :)
 
-- 可以在工作坊全程，用初學者友善的方式回答任何問題（即使技術上來說，解釋不完全是正確的也無仿）
+- 可以在工作坊全程，用初學者也能聽懂的方式回答任何問題（即使技術上來說，解釋不完全是正確的也無妨）
 
 - 有網路開發的經驗（你知道 MVC 是什麼吧？）不需要懂 Rails。
 
@@ -22,13 +22,13 @@ permalink: coach
 
 ### 為什麼我要當 Rails Girls 的教練？
 
-You mean besides incredibly good karma? Here are some very likely outcomes:
+除了結善緣之外，還有很多你非常可能得到的好處：
 
-- You'll meet interesting new people outside your usual developer group.
-- You'll probably learn something new by answering questions you never thought of asking yourself.
-- Eternal gratitude from your group of girls and the Rails Girls community.
-- An epic [\#FridayHug](http://fridayhug.com) like you've never seen before.
-- You'll help break down stereotypes about women not being interested in technology and programming and thus help your sisters, female friends and relatives, (future) daughters have more choices in their future. And you can add all that on your CV!
+- 你會認識很多 Programmer 圈圈外的有趣新朋友。
+- 你有可能要回答許多你沒有想像過的問題，並藉此學到一些新東西。
+- 你會得到你們小組的女孩們跟 Rails Girls 社群無限的感激。
+- 你從未見過的傳說[週五抱抱](http://fridayhug.com)。
+- 你會幫忙打破「女生對科技及寫程式不感興趣」的刻板印象，而因此幫助你的姐妹、女生的朋友跟親戚，（未來的）女兒，讓她們未來能有更多的選擇。而且你還可以把這件事加到你的履歷上！
 
 ### Choice of technology
 
