@@ -16,7 +16,6 @@ about Rails Girls events in Taiwan.
 <br/>
 This site is maintained by:<br/>
 Juanito Fatas : [JuanitoFatas](https://github.com/juanitofatas)<br/>
-Taian Su: [TaianSu](https://github.com/taiansu)<br/>
 <br/>
 Find a bug? Please open a ticket at
 our [issue tracker](https://github.com/railsgirls-tw/railsgirls-tw.github.io/issues)
