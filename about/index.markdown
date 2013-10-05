@@ -7,7 +7,7 @@ title: "Rails Girls 正體中文"
 
 This site has a Traditional Chinese version of [Rails Girls Guide](http://guides.railsgirls.com/). <br/>
 We created this site since we need Traditional Chinese documents for Taiwanese girls to get started.
-In general, Japanese people don't read nor speak English. The Traditional Chinese version will cut down
+In general, Taiwanese people don't read nor speak English. The Traditional Chinese version will cut down
 obstacles for girls to get in to a technology world.
 <br/>
 Also, we have a blog site (mostly written in Traditional Chinese) [here](/blog/) to write
