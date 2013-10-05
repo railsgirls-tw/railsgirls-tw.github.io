@@ -10,7 +10,7 @@ permalink: videos
 
 ### Rails Girls Taipei 2013
 
-<div><iframe width="500" height="281" src="//www.youtube.com/embed/9jZTbqokELM" frameborder="0" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=9jZTbqokELM">Rails Girls Taipei</a> from <a href="https://www.youtube.com/channel/UCGaidly9iC-V3P6hScH95Cw?feature=watch">Rails Girls Taiwan</a> on <a href="https://youtube.com">YouTube</a>.</p></div>
+<div><iframe src="//www.youtube.com/embed/9jZTbqokELM" width="500" height="281" frameborder="0"> </iframe><p><a href="https://www.youtube.com/watch?v=9jZTbqokELM">Rails Girls Taipei</a> from <a href="https://www.youtube.com/channel/UCGaidly9iC-V3P6hScH95Cw?feature=watch">Rails Girls Taiwan</a> on <a href="https://youtube.com">YouTube</a>.</p></div>
 
 ### Rails Girls Brno 2013
 
